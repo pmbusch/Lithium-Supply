@@ -7,12 +7,7 @@ power_level <- read_excel("Data/Dimensions.xlsx",sheet="Powertrain")$Powertrain
 region_level <- read_excel("Data/Dimensions.xlsx",sheet="Region")$Region
 country_level <- read_excel("Data/Dimensions.xlsx",sheet="Country")$Country
 vehicle_level <- read_excel("Data/Dimensions.xlsx",sheet="Vehicle")$Vehicle
-scen_level <- c("Baseline","Momentum","Ambitious")
 
-# Run all demand for all minerals in the model, filter later for min. of interest.
-min_interest3 <- c("Lithium","Nickel","Cobalt","Manganese","Phosphorus")
-min_interest2 <- c("Lithium","Nickel","Cobalt","Manganese")
-min_interest <- c("Lithium","Nickel","Cobalt")
 
 
 # Create a named vector of colors for each region
