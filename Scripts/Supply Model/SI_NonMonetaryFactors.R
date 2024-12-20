@@ -82,6 +82,10 @@ slack <- slack %>%
   left_join(tibble(Scenario=scens_selected,name=scens_names))
 
 # save data to recreate fig easily
+write.csv(df_results,"Results/Data_NonMonetary.csv",row.names = F)
+# (if decide not to run optimization code, then can preload results, along with the first lines of 
+# Note that some data required for the model needs to be manually uncompressed.
+# df_results <- read.csv("Results/Data_NonMonetary.csv")
 write.csv(slack,"Results/Data_NonMonetary_slack.csv",row.names = F)
 # slack <- read.csv("Results/Data_NonMonetary_slack.csv")
 
@@ -137,12 +141,6 @@ df_results %>% filter(t<limit_year) %>%
 df_results <- df_results %>% 
   dplyr::select(-total_extraction,-total_extraction1,-total_extraction2,-total_extraction3,
                 -already_open,-total_extraction)
-write.csv(df_results,"Results/Data_NonMonetary.csv",row.names = F)
-# (if decide not to run optimization code, then can preload results, along with the first lines of 
-# df_results <- read.csv("Results/Data_NonMonetary.csv")
-# df_results <- df_results %>% 
-#   mutate(NM_weight=factor(NM_weight,levels=paste0("",rev(c(0,1,3,5,10,15)),"%"))) %>% 
-#   mutate(NM_Factor=factor(NM_Factor,levels=c(aux_levels)))
 
 
 # Slack

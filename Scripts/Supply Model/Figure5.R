@@ -81,6 +81,10 @@ slack <- slack %>%
   left_join(tibble(Scenario=scens_selected,name=scens_names))
 
 # save data to recreate fig easily
+write.csv(df_results,"Results/Data_Fig5.csv",row.names = F)
+# (if decide not to run optimization code, then can preload results, along with the first lines of 
+# Note that some data required for the model needs to be manually uncompressed.
+# df_results <- read.csv("Results/Data_Fig5.csv")
 write.csv(slack,"Results/Data_Fig5_slack.csv",row.names = F)
 # slack <- read.csv("Results/Data_Fig5_slack.csv")
 
@@ -137,12 +141,6 @@ df_results %>% filter(t<limit_year) %>%
 slack %>% 
   filter(t<limit_year) %>% 
   group_by(Scenario,Scen_Deposit) %>% reframe(x=sum(value)/1e3) %>% arrange(desc(x))
-
-
-write.csv(df_results,"Results/Data_Fig5.csv",row.names = F)
-# (if decide not to run optimization code, then can preload results, along with the first lines of 
-# df_results <- read.csv("Results/Data_Fig5.csv")
-# df_results <- df_results %>% mutate(dep_scen=factor(dep_scen,levels=rev(dep_scen_name)))
 
 
 # Figure -------------

@@ -17,6 +17,7 @@ icct <- icct %>% filter(Sales>0) # reduce computational time
 dict_region <- icct %>% group_by(Region,Country) %>% tally() %>% mutate(n=NULL)
 
 ## Battery size -----
+# NOTE: FILE IS TOO BIG, so need to uncompress it before after pulling from github
 bat_ldv <- read.csv("Parameters/Demand Intermediate Results/bat_size_chem_ldv.csv")
 bat_rest <- read.csv("Parameters/Demand Intermediate Results/bat_size_chem_rest.csv")
 
