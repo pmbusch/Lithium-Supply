@@ -82,9 +82,6 @@ slack <- slack %>%
   left_join(tibble(Scenario=scens_selected,name=scens_names))
 
 # save data to recreate fig easily
-write.csv(df_results,"Results/Data_NonMonetary.csv",row.names = F)
-# (if decide not to run optimization code, then can preload results, along with the first lines of 
-# df_results <- read.csv("Results/Data_NonMonetary.csv")
 write.csv(slack,"Results/Data_NonMonetary_slack.csv",row.names = F)
 # slack <- read.csv("Results/Data_NonMonetary_slack.csv")
 
@@ -112,7 +109,6 @@ df_results <- df_results %>%
     NM_Factor=="WCR" ~ aux_levels[4],
     T ~ aux_levels[1]) %>% 
       factor(levels=c(aux_levels)))
-rm(aux_levels)
 df_results <- df_results %>% 
   mutate(NM_weight=factor(NM_weight,levels=paste0("",rev(c(0,1,3,5,10,15)),"%")))
 
@@ -137,6 +133,17 @@ df_results %>% filter(t<limit_year) %>%
   group_by(name,NM_Factor,NM_weight,Resource_Type) %>% 
   reframe(tons_extracted=sum(tons_extracted)/1e3) %>% #million 
   pivot_wider(names_from = Resource_Type, values_from = tons_extracted)
+
+df_results <- df_results %>% 
+  dplyr::select(-total_extraction,-total_extraction1,-total_extraction2,-total_extraction3,
+                -already_open,-total_extraction)
+write.csv(df_results,"Results/Data_NonMonetary.csv",row.names = F)
+# (if decide not to run optimization code, then can preload results, along with the first lines of 
+# df_results <- read.csv("Results/Data_NonMonetary.csv")
+# df_results <- df_results %>% 
+#   mutate(NM_weight=factor(NM_weight,levels=paste0("",rev(c(0,1,3,5,10,15)),"%"))) %>% 
+#   mutate(NM_Factor=factor(NM_Factor,levels=c(aux_levels)))
+
 
 # Slack
 slack %>% 
