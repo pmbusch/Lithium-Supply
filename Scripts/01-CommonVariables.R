@@ -51,6 +51,10 @@ name_abbr <- c("Ref.","Large \nLIB","Small \nLIB","NMC811","LFP",
                "Solid\nState","SIB","Repurp.","Recyc.","US\nRecyc.",
                "Med. Rec.+\nSmall LIB")
 
+name_abbr2 <- c("Ref.","Large\nLIB","Small\nLIB","NMC\n811","LFP",
+               "SS","SIB","Reprp","Recyc.","US\nRec.",
+               "Med Rec,\nSm LIB")
+
 # Color - same order
 scen_colors <- c("#000000",
                  "#0072B2","#56B4E9",

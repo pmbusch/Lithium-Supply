@@ -10,7 +10,7 @@ source("Scripts/01-CommonVariables.R", encoding = "UTF-8")
 
 theme_set(theme_bw(8)+ theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank(),axis.title.y=element_text(angle=0,margin=margin(r=0))))
 
-scen_abr <- tibble(name=scens_names,name_abr=name_abbr)
+scen_abr <- tibble(name=scens_names,name_abr=name_abbr2)
 
 # just result for 2022-2050
 limit_year <- 2051
@@ -102,11 +102,11 @@ dep_scen <- c("Base","noDLE_prodRate","AllDLE_prodRate",
               "shorter_LeadTime","longer_LeadTime")
               # "NoTax","RockTransportCosts")
 dep_scen_name <- c("Reference",
-                   "No DLE Brine","All Brine DLE",
-                   "2% Max prod. rate","5% Max prod. rate",
-                   "1-year ramp-up","2-year ramp-up","8-year ramp-up",
-                   "No clay resources","No inferred resources",
-                   "Shorter Lead Time","Longer Lead Time")
+                   "No DLE","All DLE",
+                   "2%","5%",
+                   "1-year","2-year","8-year",
+                   "No clay","No inferred",
+                   "Shorter","Longer")
                    # "No Tax or Royalty","20% Hard Rock Transport Costs")
 df_results <- df_results %>% 
   left_join(tibble(Scen_Deposit=dep_scen,
@@ -114,6 +114,7 @@ df_results <- df_results %>%
   mutate(dep_scen=factor(dep_scen,levels=rev(dep_scen_name))) %>% 
   filter(!is.na(dep_scen))
 unique(df_results$dep_scen)
+unique(df_results$Scen_Deposit)
 
 
 # get total capacity and mine opening
@@ -153,12 +154,12 @@ cat_levels <- c("Reference Case","Brine Extraction Technology",
 
 df_results <- df_results %>% 
   mutate(category=case_when(
-    dep_scen=="Reference" ~ cat_levels[1],
-    str_detect(dep_scen,"Brine") ~ cat_levels[2],
-    str_detect(dep_scen,"Max prod") ~ cat_levels[3],
-    str_detect(dep_scen,"ramp") ~ cat_levels[4],
-    str_detect(dep_scen,"Lead Time") ~ cat_levels[5],
-    str_detect(dep_scen,"resources") ~ cat_levels[6],
+    Scen_Deposit=="Base" ~ cat_levels[1],
+    str_detect(Scen_Deposit,"DLE") ~ cat_levels[2],
+    str_detect(Scen_Deposit,"prodRate") ~ cat_levels[3],
+    str_detect(Scen_Deposit,"RampUp") ~ cat_levels[4],
+    str_detect(Scen_Deposit,"LeadTime") ~ cat_levels[5],
+    str_detect(Scen_Deposit,"Resources|Clay") ~ cat_levels[6],
     T ~ cat_levels[7]) %>% factor(levels=cat_levels))
 
 
@@ -168,7 +169,7 @@ data_fig <- df_results %>%
   group_by(name,category,dep_scen) %>% 
   reframe(mines_open=sum(new_mine_open)) %>% ungroup() %>% 
   left_join(scen_abr) %>% 
-  mutate(name_abr=factor(name_abr,levels=name_abbr))
+  mutate(name_abr=factor(name_abr,levels=name_abbr2))
 
 # value at reference case
 (ref_value <- data_fig %>% filter(str_detect(name,"Ref"),
@@ -183,7 +184,7 @@ p1 <- ggplot(data_fig,aes(name_abr,dep_scen))+
   geom_text(aes(label = mines_open,
                 fontface = ifelse(str_detect(dep_scen,"Reference"), "bold", "plain")
                 ),
-            size=5*5/14 * 0.8) +
+            size=7*5/14 * 0.8) +
   ggforce::facet_col(facets = vars(category),
                      scales = "free_y",
                      space = "free")+
@@ -200,8 +201,8 @@ p1 <- ggplot(data_fig,aes(name_abr,dep_scen))+
         strip.text = element_text(size=7),
         legend.text = element_text(size=9),
         axis.title = element_text(size=9),
-        axis.text.y = element_text(size=5),
-        axis.text.x = element_text(size=5))
+        axis.text.y = element_text(size=6),
+        axis.text.x = element_text(size=6))
 p1
 
 
@@ -323,12 +324,14 @@ df_results2 <- df_results2 %>%
 # add deposits name
 unique(df_results2$Scen_Deposit)
 # country order
-count_order <- c("Reference","Canada","United States",
+count_order <- c("Reference","Canada","United\nStates",
                  "Tanzania","Australia",
-                 "Lithium Triangle","Bolivia","Argentina","Chile")
+                 "Lithium\nTriangle","Bolivia","Argentina","Chile")
 df_results2 <- df_results2 %>% 
   mutate(Scen_Deposit=Scen_Deposit %>% 
-           str_replace("Base","Reference") %>% 
+           str_replace("Base","Reference") %>%  
+           str_replace("United States","United\nStates") %>% 
+           str_replace("Lithium Triangle","Lithium\nTriangle") %>% 
            factor(levels=rev(count_order)))
 
 
@@ -366,7 +369,7 @@ data_fig_N <- df_results2 %>%
 
 data_fig_N <- data_fig_N %>% mutate(Scen_Deposit=factor(Scen_Deposit,levels=rev(count_order))) %>% 
   left_join(scen_abr) %>% 
-  mutate(name_abr=factor(name_abr,levels=name_abbr)) %>% 
+  mutate(name_abr=factor(name_abr,levels=name_abbr2)) %>% 
   mutate(aux_height=if_else(Scen_Deposit=="Reference",0.7,1)) 
 
 
@@ -381,7 +384,7 @@ p2 <- ggplot(data_fig_N,aes(name_abr,Scen_Deposit))+
   # geom_text(aes(label=mines_open),col="#3A3A3A",size=7*5/14 * 0.8)+
   geom_text(aes(label = mines_open,
                 fontface = ifelse(str_detect(Scen_Deposit,"Reference"), "bold", "plain")),
-            size=5*5/14 * 0.8) +
+            size=7*5/14 * 0.8) +
   coord_cartesian(expand=F,clip="off")+
   labs(x="Demand Scenario",
        y="",
@@ -395,13 +398,17 @@ p2 <- ggplot(data_fig_N,aes(name_abr,Scen_Deposit))+
         strip.text = element_text(size=9),
         legend.text = element_text(size=9),
         axis.title = element_text(size=9),
-        axis.text.x = element_text(size=5))
+        axis.text.y = element_text(size=6,lineheight = 0.9),
+        axis.text.x = element_text(size=6))
 p2
 
 ## Slack ----
 slack_value2 <- slack2 %>%
   filter(t<limit_year) %>%
-  mutate(Scen_Deposit=Scen_Deposit %>% str_replace("Base","Reference")) %>%
+  mutate(Scen_Deposit=Scen_Deposit %>% 
+           str_replace("Base","Reference") %>% 
+           str_replace("United States","United\nStates") %>% 
+           str_replace("Lithium Triangle","Lithium\nTriangle")) %>%
   left_join(tibble(Scenario=scens_selected,name=scens_names)) %>%
   group_by(name,Scen_Deposit) %>%
   reframe(slack=sum(value))
@@ -435,14 +442,20 @@ cost2 <- df_results2 %>%
            mine_opened*cost_opening/1e6) %>%
   left_join(discounter) %>%
   mutate(total_cost=total_cost/r) %>%
-  mutate(Scen_Deposit=Scen_Deposit %>%  str_replace("Base","Reference")) %>%
+  mutate(Scen_Deposit=Scen_Deposit %>%
+           str_replace("Base","Reference") %>% 
+           str_replace("United States","United\nStates") %>% 
+           str_replace("Lithium Triangle","Lithium\nTriangle")) %>%
   group_by(name,Scen_Deposit) %>%
   reframe(total_cost=sum(total_cost)/1e3) # to billion
 slack_cost2 <- slack2 %>%
   filter(t<limit_year) %>%
   left_join(discounter) %>%
   mutate(cost=value*bigM_cost/r) %>%
-  mutate(Scen_Deposit=Scen_Deposit %>%  str_replace("Base","Reference")) %>%
+  mutate(Scen_Deposit=Scen_Deposit %>%
+           str_replace("Base","Reference") %>% 
+           str_replace("United States","United\nStates") %>% 
+           str_replace("Lithium Triangle","Lithium\nTriangle")) %>%
   group_by(name,Scen_Deposit) %>%
   reframe(slack=sum(cost)/1e3)
 data_fig_N3 <- data_fig_N %>%
@@ -482,7 +495,7 @@ p1_plot <- p1+
                        limits=c(0,110))+
   labs( title="(A) Deposit Parameters Sensitivity")+
   theme(legend.position = "none",
-        plot.margin = margin(5,-3,5,-10))
+        plot.margin = margin(5,-3,5,-10)) #trbl
 p2_plot <- p2+
   scale_fill_gradient2(low = "#0000FFBB",mid = "#FFFFFFBB",
                        high = "#FF0000BB",midpoint = ref_value,
@@ -490,7 +503,7 @@ p2_plot <- p2+
   labs(fill="Number of new\nopened deposits",
        title="(B) N-1 Country Analysis")+
   theme(legend.position = "bottom",
-        plot.margin = margin(5,5,5,-5))
+        plot.margin = margin(5,5,5,-8))
   
 cowplot::plot_grid(p1_plot,p2_plot,ncol=2)
 
@@ -529,7 +542,7 @@ p2_cost_plot <- p_cost2+
   labs(fill="Total Cost\n[billion USD]",
        title="(B) N-1 Country Analysis")+
   theme(legend.position = "bottom",
-        plot.margin = margin(5,5,5,-5))
+        plot.margin = margin(5,5,5,-8))
 
 
 # Fig. S6. Total cost (trillions USD, in 2022 present value) to meet lithium demand requirements 
@@ -564,7 +577,7 @@ p2_slack_plot <- p_slack2+
   labs(fill="Lithium demand\ncurtalied [ktons]",
        title="(B) N-1 Country Analysis")+
   theme(legend.position = "bottom",
-        plot.margin = margin(5,5,5,-5))
+        plot.margin = margin(5,5,5,-8))
 
 # Fig. S7. Total demand curtailed (in ktons lithium) due to cost exceeding slack price threshold
 cowplot::plot_grid(p_slack_plot,p2_slack_plot, ncol = 2)
