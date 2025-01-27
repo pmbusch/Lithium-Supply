@@ -198,11 +198,11 @@ p1 <- ggplot(data_fig,aes(name_abr,dep_scen))+
   guides(linewidth="none")+
   theme_minimal(8)+
   theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank(),
-        strip.text = element_text(size=7),
-        legend.text = element_text(size=9),
-        axis.title = element_text(size=9),
-        axis.text.y = element_text(size=6),
-        axis.text.x = element_text(size=6))
+        strip.text = element_text(size=7,color="black"),
+        legend.text = element_text(size=9,color="black"),
+        axis.title = element_text(size=9,color="black"),
+        axis.text.y = element_text(size=6,color="black"),
+        axis.text.x = element_text(size=6,color="black"))
 p1
 
 
@@ -395,11 +395,11 @@ p2 <- ggplot(data_fig_N,aes(name_abr,Scen_Deposit))+
   guides(linewidth="none")+
   theme_minimal(8)+
   theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank(),
-        strip.text = element_text(size=9),
-        legend.text = element_text(size=9),
-        axis.title = element_text(size=9),
-        axis.text.y = element_text(size=6,lineheight = 0.9),
-        axis.text.x = element_text(size=6))
+        strip.text = element_text(size=9,color="black"),
+        legend.text = element_text(size=9,color="black"),
+        axis.title = element_text(size=9,color="black"),
+        axis.text.y = element_text(size=6,lineheight = 0.9,color="black"),
+        axis.text.x = element_text(size=6,color="black"))
 p2
 
 ## Slack ----
