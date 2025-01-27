@@ -18,7 +18,7 @@ If you identify any error in the source code or have any further suggestions ple
 
 # Instructions
 
-The repository is ~294Mb unzipped. 
+The repository is ~830Mb fully unzipped, please make sure to manually unzip files in the Results folder. 
 
 Users can run all the code for replication using the "Lithium-Supply.Rproj" file, or by setting their own working directory and running scripts independently.
 
@@ -30,7 +30,7 @@ Users can either used the uploaded model results to replicate figures, or run ne
 
 The script code was developed with **R** software version 4.4.1. 
 
-The optimization code was developed with **julia** version 1.11.0, and using Gurobi as solver. Instruction to get a license from Gurobi can be found ![here](https://www.gurobi.com/solutions/licensing/) Alternatively, the optimization scripts can be adapted to run with another standard optimization solver.
+The optimization code was developed with **julia** version 1.11.0, and using Gurobi as solver. Instruction to get a license from Gurobi can be found [here](https://www.gurobi.com/solutions/licensing/). Alternatively, the optimization scripts can be adapted to run with another standard optimization solver.
 
 The R code requires the following packages: *tidyverse*, *readr*,*readxl*,*ggplot2*,*data.table*,*dplyr*,*gridExtra*,*reshape2*,*scales*,*RColorBrewer*,*sf*,*ggrepel*. All libraries can be installed with the following command: 
 ```
