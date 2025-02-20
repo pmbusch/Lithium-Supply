@@ -9,7 +9,7 @@ source("Scripts/01-CommonVariables.R", encoding = "UTF-8")
 url_file <- "Data/Demand Model/OtherSectors_Demand.xlsx"
 
 
-other_sector_demand <- tibble(year=2022:2050)
+other_sector_demand <- tibble(year=2022:2070)
 
 # NICKEL --------
 sheet <- "Nickel"
@@ -31,7 +31,7 @@ cor(ss$ss_ton,ss$gdp)
 # gdp forecast
 gdp <- read_excel(url_file,"GDP","A1:D72")
 names(gdp)
-gdp <- gdp %>% filter(year>2021,year<2051)
+gdp <- gdp %>% filter(year>2021,year<2071)
 
 # stainless steel growth
 gdp$ss <- predict(mod1,tibble(gdp=gdp$gdp))
@@ -52,7 +52,7 @@ gdp$Ni_stainlessSteel <- gdp$ss*ss_nickel_intensity/1e3 # tons Nickel
 gdp <- read_excel(url_file,"GDP","A1:D72")
 
 gdp_2018 <- gdp %>% filter(year==2018) %>% pull(gdp)
-gdp <- gdp %>% filter(year>2021,year<2051) %>% mutate(ratio_2018=gdp/gdp_2018)
+gdp <- gdp %>% filter(year>2021,year<2071) %>% mutate(ratio_2018=gdp/gdp_2018)
 
 # use ratio to expand
 ni_2018 <- 2.33*1e6 # consumption
@@ -107,7 +107,7 @@ other_sector_demand$Li_lubricant <- li_cons*0.06 # 6% of consumption
 gdp <- read_excel(url_file,"GDP","A1:D72")
 
 gdp_2018 <- gdp %>% filter(year==2018) %>% pull(gdp)
-gdp <- gdp %>% filter(year>2021,year<2051) %>% mutate(ratio_2018=gdp/gdp_2018)
+gdp <- gdp %>% filter(year>2021,year<2071) %>% mutate(ratio_2018=gdp/gdp_2018)
 
 
 # use ratio to expand
@@ -120,7 +120,7 @@ other_sector_demand$Li_ceramics <- gdp$ratio_2018*li_cons*0.22
 ## Population driver -----------
 pop <- read_excel(url_file,"Population","A1:C152")
 pop_2018 <- pop %>% filter(year==2018) %>% pull(pop_thousand)
-pop <- pop %>% filter(year>2021,year<2051) %>% mutate(ratio_2018=pop_thousand/pop_2018)
+pop <- pop %>% filter(year>2021,year<2071) %>% mutate(ratio_2018=pop_thousand/pop_2018)
 
 # use ratio to expand
 other_sector_demand$Li_AirTreatment <- pop$ratio_2018*li_cons*0.02 # 2% of 2018 consumption
@@ -135,7 +135,7 @@ co_cons <- 187000 # Cobalt consumption 2022
 gdp <- read_excel(url_file,"GDP","A1:D72")
 
 gdp_2022 <- gdp %>% filter(year==2022) %>% pull(gdp)
-gdp <- gdp %>% filter(year>2021,year<2051) %>% mutate(ratio_2022=gdp/gdp_2022)
+gdp <- gdp %>% filter(year>2021,year<2071) %>% mutate(ratio_2022=gdp/gdp_2022)
 
 # use ratio to expand
 other_sector_demand$Co_superalloys <- gdp$ratio_2022*co_cons*0.09
@@ -147,7 +147,7 @@ other_sector_demand$Co_Othes <- gdp$ratio_2022*co_cons*0.1
 ## Population driver -----------
 pop <- read_excel(url_file,"Population","A1:C152")
 pop_2022 <- pop %>% filter(year==2022) %>% pull(pop_thousand)
-pop <- pop %>% filter(year>2021,year<2051) %>% mutate(ratio_2022=pop_thousand/pop_2022)
+pop <- pop %>% filter(year>2021,year<2071) %>% mutate(ratio_2022=pop_thousand/pop_2022)
 
 # use ratio to expand
 other_sector_demand$Co_PortableElectronics <- pop$ratio_2022*co_cons*0.3 
@@ -250,12 +250,6 @@ demand2 %>% filter(Year==2050) %>% group_by(Powertrain,Mineral) %>%
   reframe(ton=sum(tons_mineral))
 demand <- rbind(demand,demand2)
 
-# Extend towards 2070 -----
-demand_aux <- demand %>% filter(Year==2050)
-for (y in 2051:2070) {
-  demand_aux <- demand_aux %>% mutate(Year=y)
-  demand <- rbind(demand,demand_aux)
-}
 range(demand$Year)
 
 # Save ----------

@@ -104,13 +104,14 @@ recycling_scen <- recycling_scenarios$recycling_scenario %>% unique()
 # global rec scenarios - uncomment to run recycling demand loop
 # recycling_scen <- global_rec_scenarios$recycling_scenarios %>% unique()
 # mat_recovery_recycling <- global_rec_scenarios
+# chems_scen <- c("Baseline")
 
 # results
 df_region_final <- c()
 df_country_final <- c() # slow, only for selected scenarios
 start_time <- proc.time()
 # debug
-scen=scen_level[1];scen_chem=chems_scen[1];scen_bat=capacity_scen[2];scen_life=lifetime_scen[1];scen_recyc=recycling_scen[1];
+scen=scen_level[1];scen_chem=chems_scen[4];scen_bat=capacity_scen[2];scen_life=lifetime_scen[1];scen_recyc=recycling_scen[1];
 # scen=scen_level[3];scen_chem=chems_scen[1];scen_bat=capacity_scen[1];scen_life=lifetime_scen[1];scen_recyc=recycling_scen[1];
 length(scen_level)*length(chems_scen)*length(capacity_scen)*length(lifetime_scen)*length(recycling_scen)
 for (scen in scen_level){
@@ -230,12 +231,6 @@ for (scen in scen_level){
             perc_ssps=0.5
           }
           
-          reuse_car <- reuse_car %>%
-            mutate(perc_lib_ssps=perc_lib_available*perc_ssps,
-          # LIBs that failed and LIBs in good condition that are old
-                   perc_lib_recycling=perc_lib_recycling+
-                     perc_lib_available*(1-perc_ssps)) 
-          
           # head(reuse_car) # some columns are vectors with the flow of EVs from age 1 to 30
           
           # do it directly with the function
@@ -261,14 +256,17 @@ for (scen in scen_level){
                       relationship = "many-to-many") %>% 
             rowwise() %>% # MULTIPLY VECTORS rowise
             mutate(add_kwh_failure = sum(kwh_veh * add_LIB_vector),
-          #         # LIBs that failed and LIBs in good condition that are old
-                   kwh_veh_recycling = sum(kwh_veh * LIB_recycling_vector)+
-                     sum(kwh_veh * LIB_Available_vector)*(1-perc_ssps), 
-                   lib_kwh_ssps = sum(kwh_veh * LIB_Available_vector)*perc_ssps) %>%  
+                   # LIBs that failed 
+                   kwh_veh_recycling = sum(kwh_veh * LIB_recycling_vector),
+                   # LIBs in good condition that are old - SSPS or recycling
+                   kwh_veh_available = sum(kwh_veh * LIB_Available_vector)) %>%  
             ungroup() %>% 
             mutate(add_kwh_failure = add_kwh_failure*perc_add_lib,
-                   kwh_veh_recycling = kwh_veh_recycling*perc_lib_recycling,
-                   lib_kwh_ssps = lib_kwh_ssps*perc_lib_ssps) %>%
+                   # Recycling + Available LIBs
+                   kwh_veh_recycling = kwh_veh_recycling*perc_lib_recycling+
+                     kwh_veh_available*perc_lib_available*(1-perc_ssps),
+                   # LIBs to SSPS
+                   lib_kwh_ssps = kwh_veh_available*perc_lib_available*perc_ssps) %>%
             dplyr::select(-kwh_veh,-LIB_recycling_vector,-LIB_Available_vector,-join_dummy,
                           -add_LIB_vector)
           
@@ -283,7 +281,7 @@ for (scen in scen_level){
             mutate(lib_additional_kwh=add_kwh_failure*Sales,
                    lib_recycling_kwh=kwh_veh_recycling*Sales,
                    lib_ssps_kwh=lib_kwh_ssps*Sales) %>% 
-            dplyr::select(-kwh_veh_recycling,-lib_kwh_ssps,-perc_lib_ssps,-perc_lib_recycling,
+            dplyr::select(-kwh_veh_recycling,-lib_kwh_ssps,-perc_lib_recycling,-kwh_veh_available,
                           -perc_add_lib,-add_kwh_failure,-perc_lib_available)
           
           # rest of vehicles: same size and chemistry during whole period
@@ -497,20 +495,20 @@ for (scen in scen_level){
         rm(df_region)
         
         # Save results at Coutry level - SLOW!
-        df_country <- df %>%
-          group_by(Year,Region,Country,Powertrain,Vehicle,chemistry,Mineral) %>%
-          reframe(tons_mineral=sum(tons_mineral)) %>% ungroup()
-        nrow(df_country) #
-        # add scenarios
-        df_country$Scenario <- scen
-        df_country$chem_scenario <- scen_chem
-        df_country$capacity_scenario <- scen_bat
-        df_country$lifetime_scenario <- scen_life
-        df_country$recycling_scenario <- scen_recyc
-        # bind
-        df_country <- df_country %>% filter(abs(tons_mineral)>0)
-        df_country_final <- rbind(df_country_final,df_country)
-        rm(df_country)
+        # df_country <- df %>%
+        #   group_by(Year,Region,Country,Powertrain,Vehicle,chemistry,Mineral) %>%
+        #   reframe(tons_mineral=sum(tons_mineral)) %>% ungroup()
+        # nrow(df_country) #
+        # # add scenarios
+        # df_country$Scenario <- scen
+        # df_country$chem_scenario <- scen_chem
+        # df_country$capacity_scenario <- scen_bat
+        # df_country$lifetime_scenario <- scen_life
+        # df_country$recycling_scenario <- scen_recyc
+        # # bind
+        # df_country <- df_country %>% filter(abs(tons_mineral)>0)
+        # df_country_final <- rbind(df_country_final,df_country)
+        # rm(df_country)
 
         }
       }

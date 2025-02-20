@@ -52,10 +52,11 @@ p1 <- ggplot(data_fig1)+
   geom_line(data=filter(data_fig1,str_detect(name,"Refere")),
             aes(t,kton,group=name,col=name),alpha=.7,linewidth=.8)+
   geom_text(data=filter(data_fig1,t==2050),show.legend = F,
-            aes(label=scen_num,y=kton,col=name),x=2050.5,
+            aes(label=scen_num,y=kton,col=name),x=2050.5+
+              c(-0.3,-0.3,0,0,0,0,0,0.3,0.3,0,0), # nudge x
             size=6*5/14 * 0.8,
             # order: 1,8,9,10,2,3,11,5,4,7,6
-            nudge_y = c(0,1.7,-0.5,-0.8,0,0,1,-1,1,-1.2,0)*5e1)+
+            nudge_y = c(0,2,0,-0.8,0,0,0,0,2,-0.2,0)*5e1)+
   coord_cartesian(expand=F,xlim=c(2022,2051.1),
                   ylim=c(0,max(data_fig1$kton)*1.02))+
   labs(x="",y="",col="Demand Scenario",

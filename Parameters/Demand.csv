@@ -1,540 +1,540 @@
 "t","Scenario","Demand"
-2022,"Ambitious-Baseline-Baseline-Baseline-Baseline",113.550823941013
-2022,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",113.531791987209
-2022,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",113.564800818689
-2022,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",113.550823941013
-2022,"Ambitious-Baseline-High Capacity-Baseline-Baseline",113.550823941013
-2022,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",113.550823941013
-2022,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",113.564800818689
-2022,"Ambitious-Double LFP-Baseline-Baseline-Baseline",113.550823941013
-2022,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",113.550823941013
-2022,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",113.550823941013
-2022,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",113.550823941013
-2023,"Ambitious-Baseline-Baseline-Baseline-Baseline",138.024420049871
-2023,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",138.056536442512
-2023,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",137.946134264611
-2023,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",138.007918333856
-2023,"Ambitious-Baseline-High Capacity-Baseline-Baseline",141.878870686467
-2023,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",135.968360337779
-2023,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",135.890031505465
-2023,"Ambitious-Double LFP-Baseline-Baseline-Baseline",137.664381110462
-2023,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",137.958125196953
-2023,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",138.024420049871
-2023,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",138.024420049871
-2024,"Ambitious-Baseline-Baseline-Baseline-Baseline",179.687226938588
-2024,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",179.710981094394
-2024,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",179.451592380328
-2024,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",179.620896490268
-2024,"Ambitious-Baseline-High Capacity-Baseline-Baseline",189.361065991712
-2024,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",174.113780110164
-2024,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",173.880530895963
-2024,"Ambitious-Double LFP-Baseline-Baseline-Baseline",179.026082160003
-2024,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",179.512022315573
-2024,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",179.687226938588
-2024,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",179.687226938588
-2025,"Ambitious-Baseline-Baseline-Baseline-Baseline",239.101926078386
-2025,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",239.154854901886
-2025,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",238.515946401825
-2025,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",238.911443196891
-2025,"Ambitious-Baseline-High Capacity-Baseline-Baseline",259.714877175785
-2025,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",227.303615602586
-2025,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",226.735239201811
-2025,"Ambitious-Double LFP-Baseline-Baseline-Baseline",238.019913784348
-2025,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",238.741553103473
-2025,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",239.101926078386
-2025,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",239.101926078386
-2026,"Ambitious-Baseline-Baseline-Baseline-Baseline",299.290930157311
-2026,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",299.387278771549
-2026,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",298.052975585325
-2026,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",298.868384839863
-2026,"Ambitious-Baseline-High Capacity-Baseline-Baseline",334.594087720179
-2026,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",278.40971045704
-2026,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",277.232136620439
-2026,"Ambitious-Double LFP-Baseline-Baseline-Baseline",297.712923109545
-2026,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",298.791091664767
-2026,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",299.290930157311
-2026,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",299.290930157311
-2027,"Ambitious-Baseline-Baseline-Baseline-Baseline",368.295354178666
-2027,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",368.451895498551
-2027,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",365.943358926825
-2027,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",367.454799754341
-2027,"Ambitious-Baseline-High Capacity-Baseline-Baseline",423.526801054648
-2027,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",335.42611228892
-2027,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",333.235664926577
-2027,"Ambitious-Double LFP-Baseline-Baseline-Baseline",366.118269410608
-2027,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",367.580499599621
-2027,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",368.295354178666
-2027,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",368.295354178666
-2028,"Ambitious-Baseline-Baseline-Baseline-Baseline",454.997023448232
-2028,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",455.230192147207
-2028,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",450.843351833586
-2028,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",453.530855758436
-2028,"Ambitious-Baseline-High Capacity-Baseline-Baseline",537.485103807205
-2028,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",405.602425520454
-2028,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",401.806534023116
-2028,"Ambitious-Double LFP-Baseline-Baseline-Baseline",452.108549552616
-2028,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",454.032105513978
-2028,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",454.997023448232
-2028,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",454.997023448232
-2029,"Ambitious-Baseline-Baseline-Baseline-Baseline",554.683314784278
-2029,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",555.23772427354
-2029,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",547.038209467201
-2029,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",552.088969170371
-2029,"Ambitious-Baseline-High Capacity-Baseline-Baseline",674.402159308166
-2029,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",482.349143942673
-2029,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",475.906047599043
-2029,"Ambitious-Double LFP-Baseline-Baseline-Baseline",550.896760584059
-2029,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",553.365525712577
-2029,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",554.683314784278
-2029,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",554.683314784278
-2030,"Ambitious-Baseline-Baseline-Baseline-Baseline",694.540128162061
-2030,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",695.213917886347
-2030,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",681.797023884165
-2030,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",690.490131517465
-2030,"Ambitious-Baseline-High Capacity-Baseline-Baseline",866.352064423601
-2030,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",589.495142765526
-2030,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",580.0458432315
-2030,"Ambitious-Double LFP-Baseline-Baseline-Baseline",689.592865226528
-2030,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",692.772882650808
-2030,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",689.831531156811
-2030,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",702.580025911998
-2031,"Ambitious-Baseline-Baseline-Baseline-Baseline",762.352123479878
-2031,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",763.254351568404
-2031,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",741.907264297747
-2031,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",756.245534160575
-2031,"Ambitious-Baseline-High Capacity-Baseline-Baseline",975.045127088779
-2031,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",632.727102558293
-2031,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",619.147191443154
-2031,"Ambitious-Double LFP-Baseline-Baseline-Baseline",756.584351258743
-2031,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",760.459372066779
-2031,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",751.892540932386
-2031,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",779.826270828601
-2032,"Ambitious-Baseline-Baseline-Baseline-Baseline",835.172697817011
-2032,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",836.47324387959
-2032,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",805.726596710451
-2032,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",826.667870610705
-2032,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1095.00726622701
-2032,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",676.519682023363
-2032,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",658.820862555264
-2032,"Ambitious-Double LFP-Baseline-Baseline-Baseline",828.494740128134
-2032,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",833.127046842893
-2032,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",818.159198222485
-2032,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",863.551083805006
-2033,"Ambitious-Baseline-Baseline-Baseline-Baseline",916.138302013251
-2033,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",917.927258327777
-2033,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",875.985320531532
-2033,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",904.896831391406
-2033,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1229.87104985227
-2033,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",723.190346698587
-2033,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",700.125630200791
-2033,"Ambitious-Double LFP-Baseline-Baseline-Baseline",908.486153940778
-2033,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",913.969667189785
-2033,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",891.323924152312
-2033,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",957.658622527946
-2034,"Ambitious-Baseline-Baseline-Baseline-Baseline",1000.30384973196
-2034,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1002.69476784855
-2034,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",947.312890672681
-2034,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",985.845247733965
-2034,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1373.79975979778
-2034,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",770.012853761028
-2034,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",740.008831131295
-2034,"Ambitious-Double LFP-Baseline-Baseline-Baseline",991.613895552131
-2034,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",998.108885600897
-2034,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",966.003576891924
-2034,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1056.15233857648
-2035,"Ambitious-Baseline-Baseline-Baseline-Baseline",1080.27320456765
-2035,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1083.69063386886
-2035,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1010.64272626159
-2035,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1061.82606012024
-2035,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1520.73649761575
-2035,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",807.648987827608
-2035,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",768.726217551144
-2035,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1070.5589053271
-2035,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1078.09230821294
-2035,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1036.65762627615
-2035,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1151.86429513999
-2036,"Ambitious-Baseline-Baseline-Baseline-Baseline",1134.57025170612
-2036,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1138.65576421998
-2036,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1045.28236940285
-2036,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1111.60795363363
-2036,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1595.23899667085
-2036,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",850.688823884071
-2036,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",801.892388840179
-2036,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1124.22782095844
-2036,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1132.54966116477
-2036,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1082.14057140604
-2036,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1222.61512078484
-2037,"Ambitious-Baseline-Baseline-Baseline-Baseline",1194.22944779387
-2037,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1199.61050168437
-2037,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1080.29865928317
-2037,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1165.68568564719
-2037,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1679.08525276296
-2037,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",894.644335540428
-2037,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",832.369815548084
-2037,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1183.20923411923
-2037,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1192.3498310333
-2037,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1132.43002413358
-2037,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1300.5650476661
-2038,"Ambitious-Baseline-Baseline-Baseline-Baseline",1255.90319655261
-2038,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1262.66030537033
-2038,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1111.86160473136
-2038,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1220.29450713068
-2038,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1765.45854094943
-2038,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",940.084587489657
-2038,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",861.612051922002
-2038,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1244.2274700529
-2038,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1254.24016562384
-2038,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1184.01102544437
-2038,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1382.61135502252
-2039,"Ambitious-Baseline-Baseline-Baseline-Baseline",1316.66909593571
-2039,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1325.12262067444
-2039,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1136.82921710862
-2039,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1272.6305527006
-2039,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1850.42722629967
-2039,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",984.616226820612
-2039,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",887.106907642721
-2039,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1304.39152042483
-2039,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1315.3530523671
-2039,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1234.34379837677
-2039,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1465.9612651088
-2040,"Ambitious-Baseline-Baseline-Baseline-Baseline",1386.78361962997
-2040,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1398.75055080926
-2040,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1166.71413272676
-2040,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1332.98558961843
-2040,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1945.40726429299
-2040,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1038.24292375729
-2040,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",920.068279586242
-2040,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1373.91907560885
-2040,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1385.89862942955
-2040,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1290.84554455322
-2040,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1561.58934099704
-2041,"Ambitious-Baseline-Baseline-Baseline-Baseline",1420.77860878197
-2041,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1433.97397458182
-2041,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1154.05807444292
-2041,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1355.99519105216
-2041,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1994.41341693247
-2041,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1063.21533649877
-2041,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",921.313829556111
-2041,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1407.52302852496
-2041,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1420.23920431192
-2041,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1324.69314478135
-2041,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1602.04509418274
-2042,"Ambitious-Baseline-Baseline-Baseline-Baseline",1458.6445797251
-2042,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1472.53942334932
-2042,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1138.70018883694
-2042,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1382.07298784282
-2042,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2044.58595175312
-2042,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1090.22615669221
-2042,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",921.512091547822
-2042,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1444.95015168069
-2042,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1458.38756711535
-2042,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1362.03133849083
-2042,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1646.83209444958
-2043,"Ambitious-Baseline-Baseline-Baseline-Baseline",1494.69586809681
-2043,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1510.84027769811
-2043,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1116.6011999951
-2043,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1405.63012840359
-2043,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2091.69326786408
-2043,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1116.35916384819
-2043,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",918.792239952941
-2043,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1480.57244451132
-2043,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1494.7182642691
-2043,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1397.77950851853
-2043,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1689.88406924609
-2044,"Ambitious-Baseline-Baseline-Baseline-Baseline",1529.30744406916
-2044,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1547.54367879902
-2044,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1088.07985286695
-2044,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1427.48242167482
-2044,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2135.06562103065
-2044,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1140.4037402389
-2044,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",912.813409937762
-2044,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1514.76519826314
-2044,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1529.60036978653
-2044,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1432.10841228614
-2044,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1731.4276994997
-2045,"Ambitious-Baseline-Baseline-Baseline-Baseline",1562.66905083253
-2045,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1582.44715459671
-2045,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1057.01402864443
-2045,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1448.07121881041
-2045,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2176.02444097297
-2045,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1164.81021825124
-2045,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",907.423804640939
-2045,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1547.73267977696
-2045,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1563.2326544276
-2045,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1464.85378450904
-2045,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1771.61233751174
-2046,"Ambitious-Baseline-Baseline-Baseline-Baseline",1578.12831244258
-2046,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1601.50986473002
-2046,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1005.6057870033
-2046,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1451.02554386856
-2046,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2194.24180846763
-2046,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1175.74611377172
-2046,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",887.814615097146
-2046,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1562.99022634611
-2046,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1578.99141404785
-2046,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1481.54870003058
-2046,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1791.76101727222
-2047,"Ambitious-Baseline-Baseline-Baseline-Baseline",1595.00179663668
-2047,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1622.04630383706
-2047,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",955.61310193334
-2047,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1456.00645260625
-2047,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2214.15181749204
-2047,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1187.46956178958
-2047,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",869.440315694417
-2047,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1579.62691420487
-2047,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1596.12492926118
-2047,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1499.8034838494
-2047,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1813.11666485852
-2048,"Ambitious-Baseline-Baseline-Baseline-Baseline",1610.27657640384
-2048,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1640.95987411542
-2048,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",904.937523299884
-2048,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1460.12437170141
-2048,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2232.07265053658
-2048,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1198.51819954554
-2048,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",850.99538618684
-2048,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1594.67971739988
-2048,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1611.66521809718
-2048,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1516.80497536009
-2048,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1832.48164102689
-2049,"Ambitious-Baseline-Baseline-Baseline-Baseline",1625.42479533451
-2049,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1659.24819554841
-2049,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",856.154894562106
-2049,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1465.16615755848
-2049,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2249.47272214036
-2049,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1209.90183388376
-2049,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",833.810097772324
-2049,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1609.59975356064
-2049,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1627.07889021933
-2049,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1533.69810974348
-2049,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1851.79117712084
-2050,"Ambitious-Baseline-Baseline-Baseline-Baseline",1642.31070510381
-2050,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1678.83035926741
-2050,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",811.623616867072
-2050,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1473.15570759633
-2050,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2268.8698538941
-2050,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1223.14052175685
-2050,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",819.347719974842
-2050,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1626.24365418235
-2050,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1644.23687904991
-2050,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1552.23645511376
-2050,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1873.01276696467
-2051,"Ambitious-Baseline-Baseline-Baseline-Baseline",1647.1455751748
-2051,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1687.53532725104
-2051,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",755.019390215197
-2051,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1470.41306152421
-2051,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2272.62794542604
-2051,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1224.6871777428
-2051,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",793.454241067667
-2051,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1631.16345209512
-2051,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1648.94510486426
-2051,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1559.49638398727
-2051,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1877.06536039817
-2052,"Ambitious-Baseline-Baseline-Baseline-Baseline",1651.22670459911
-2052,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1694.44483483776
-2052,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",702.438357828839
-2052,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1467.71510335251
-2052,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2275.91073154691
-2052,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1226.74263464317
-2052,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",769.400576179367
-2052,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1635.32919397205
-2052,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1652.92222958579
-2052,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1565.82099114092
-2052,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1880.17837119665
-2053,"Ambitious-Baseline-Baseline-Baseline-Baseline",1656.19090394436
-2053,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1701.96473539102
-2053,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",654.204951733596
-2053,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1466.75437405973
-2053,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2281.12142732095
-2053,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1230.13781852296
-2053,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",747.353922716796
-2053,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1640.35520330218
-2053,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1657.80420555322
-2053,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1572.82651180792
-2053,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1884.28482810329
-2054,"Ambitious-Baseline-Baseline-Baseline-Baseline",1661.89419881151
-2054,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1710.0837552484
-2054,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",610.048685670368
-2054,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1467.6059494815
-2054,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2288.01445382115
-2054,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1234.23532023001
-2054,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",726.967200548619
-2054,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1646.09795687448
-2054,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1663.4438367215
-2054,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1580.33466094554
-2054,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1889.15430774836
-2055,"Ambitious-Baseline-Baseline-Baseline-Baseline",1668.77789211471
-2055,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1719.13507759954
-2055,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",570.390348254276
-2055,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1470.54056308818
-2055,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2297.01786478314
-2055,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1238.72431969282
-2055,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",708.784319662814
-2055,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1652.99507822623
-2055,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1670.27385527738
-2055,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1588.73789336844
-2055,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1895.25469807803
-2056,"Ambitious-Baseline-Baseline-Baseline-Baseline",1676.15228311647
-2056,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1728.48115542129
-2056,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",534.588167919725
-2056,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1474.69483089758
-2056,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2306.98229259299
-2056,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1243.66620950843
-2056,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",692.529459200951
-2056,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1660.36755318996
-2056,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1677.60327419575
-2056,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1597.32929026908
-2056,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1902.00052645445
-2057,"Ambitious-Baseline-Baseline-Baseline-Baseline",1683.64974409495
-2057,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1737.77837938076
-2057,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",502.11130155387
-2057,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1479.53676413519
-2057,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2317.24700842149
-2057,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1248.86204596567
-2057,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",677.940129802292
-2057,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1667.85758602977
-2057,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1685.06221140146
-2057,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1605.70656730638
-2057,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1909.14059888485
-2058,"Ambitious-Baseline-Baseline-Baseline-Baseline",1691.22912547272
-2058,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1746.98287315172
-2058,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",473.039156419157
-2058,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1484.96855419633
-2058,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2327.6675037041
-2058,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1254.20411990239
-2058,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",665.057916197145
-2058,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1675.42855894092
-2058,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1692.60765330738
-2058,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1613.79951036937
-2058,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1916.75665886711
-2059,"Ambitious-Baseline-Baseline-Baseline-Baseline",1698.70027312359
-2059,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1755.90212859062
-2059,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",446.989024703498
-2059,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1490.68620648038
-2059,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2337.93489033999
-2059,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1259.54782061883
-2059,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",653.659597662299
-2059,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1682.89177994484
-2059,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1700.05716040944
-2059,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1621.4377485839
-2059,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1924.76323458289
-2060,"Ambitious-Baseline-Baseline-Baseline-Baseline",1706.68466965698
-2060,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1765.2071994176
-2060,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",424.506114652826
-2060,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1497.27691563086
-2060,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2348.96780167205
-2060,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1265.43408424116
-2060,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",644.17903922114
-2060,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1690.86694010252
-2060,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1708.02761616647
-2060,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1629.35447340017
-2060,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1933.64659628081
-2061,"Ambitious-Baseline-Baseline-Baseline-Baseline",1714.79183500233
-2061,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1774.52488974619
-2061,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",404.967173488046
-2061,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1504.29007458849
-2061,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2360.18022420165
-2061,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1271.49869397921
-2061,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",636.244723788776
-2061,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1698.96750907205
-2061,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1716.12560653816
-2061,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1637.26740618982
-2061,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1942.81497287203
-2062,"Ambitious-Baseline-Baseline-Baseline-Baseline",1722.82020969021
-2062,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1783.6694077105
-2062,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",387.972779328843
-2062,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1511.45303926657
-2062,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2371.25596701666
-2062,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1277.57467484137
-2062,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",629.591213972021
-2062,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1706.99410919235
-2062,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1724.14459570459
-2062,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1645.04086947919
-2062,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1951.90682289568
-2063,"Ambitious-Baseline-Baseline-Baseline-Baseline",1730.77739192833
-2063,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1792.65383199307
-2063,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",373.370562585844
-2063,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1518.71442649662
-2063,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2382.21790523823
-2063,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1283.64780423631
-2063,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",624.133444257963
-2063,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1714.9506898951
-2063,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1732.0902567499
-2063,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1652.71726921123
-2063,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1960.87382846607
-2064,"Ambitious-Baseline-Baseline-Baseline-Baseline",1738.7032406821
-2064,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1801.50426978233
-2064,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",360.961999252407
-2064,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1526.09088115685
-2064,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2393.10369603943
-2064,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1289.71214119472
-2064,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",619.783418753532
-2064,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1722.87617037093
-2064,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1739.99920305764
-2064,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1660.33835452605
-2064,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1969.71370120905
-2065,"Ambitious-Baseline-Baseline-Baseline-Baseline",1747.05566782035
-2065,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1810.63343932479
-2065,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",350.987777099977
-2065,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1534.00018208336
-2065,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2404.4960363408
-2065,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1296.06877830635
-2065,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",616.764395975652
-2065,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1731.22263453191
-2065,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1748.32937073789
-2065,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1668.3287440744
-2065,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1978.93103636029
-2066,"Ambitious-Baseline-Baseline-Baseline-Baseline",1755.7055192876
-2066,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1819.99381431138
-2066,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",343.216396137308
-2066,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1542.28955524462
-2066,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2416.37153845148
-2066,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1302.70171039228
-2066,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",614.955331040707
-2066,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1739.85863930464
-2066,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1756.95623683163
-2066,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1676.59754160867
-2066,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1988.43840780613
-2067,"Ambitious-Baseline-Baseline-Baseline-Baseline",1764.80704480554
-2067,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1829.74271977954
-2067,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",337.564481676625
-2067,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1551.09713802817
-2067,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2428.99971531324
-2067,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1309.69077063044
-2067,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",614.347000122955
-2067,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1748.93327375321
-2067,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1766.03914250967
-2067,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1685.29020287945
-2067,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1998.47312230706
-2068,"Ambitious-Baseline-Baseline-Baseline-Baseline",1774.44728886883
-2068,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1839.97829612657
-2068,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",333.817484722073
-2068,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1560.47912365677
-2068,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2442.46894061062
-2068,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1317.10841145939
-2068,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",614.851666834953
-2068,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1758.53090379322
-2068,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1775.66937210988
-2068,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1694.48980550881
-2068,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2009.1955372642
-2069,"Ambitious-Baseline-Baseline-Baseline-Baseline",1784.661648711
-2069,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1850.74765698
-2069,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",331.735366048035
-2069,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1570.46095051897
-2069,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2456.82069637824
-2069,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1324.97769218847
-2069,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",616.352609790052
-2069,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1768.68597877082
-2069,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1785.88540584059
-2069,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1704.23118688716
-2069,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2020.68654321549
-2070,"Ambitious-Baseline-Baseline-Baseline-Baseline",1795.62628633336
-2070,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1862.23729479376
-2070,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",331.250738659085
-2070,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1581.21972113749
-2070,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2472.30510962619
-2070,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1333.4200300866
-2070,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",618.846368926513
-2070,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1779.57517309477
-2070,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1796.86079110547
-2070,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1714.66956861239
-2070,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2033.13749502107
+2022,"Ambitious-Baseline-Baseline-Baseline-Baseline",113.535026828114
+2022,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",113.518522412374
+2022,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",113.551531243854
+2022,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",113.535026828114
+2022,"Ambitious-Baseline-High Capacity-Baseline-Baseline",113.535026828114
+2022,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",113.535026828114
+2022,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",113.551531243854
+2022,"Ambitious-Double LFP-Baseline-Baseline-Baseline",113.535026828114
+2022,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",113.535026828114
+2022,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",113.535026828114
+2022,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",113.535026828114
+2023,"Ambitious-Baseline-Baseline-Baseline-Baseline",138.084800326073
+2023,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",138.08934281794
+2023,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",138.045957735778
+2023,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",138.070951692711
+2023,"Ambitious-Baseline-High Capacity-Baseline-Baseline",141.939227936813
+2023,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",136.028754680536
+2023,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",135.989866792537
+2023,"Ambitious-Double LFP-Baseline-Baseline-Baseline",137.724761386664
+2023,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",138.018505473156
+2023,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",138.084800326073
+2023,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",138.084800326073
+2024,"Ambitious-Baseline-Baseline-Baseline-Baseline",179.777677365716
+2024,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",179.757437133196
+2024,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",179.618414612776
+2024,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",179.719087983089
+2024,"Ambitious-Baseline-High Capacity-Baseline-Baseline",189.451760455856
+2024,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",174.204175450392
+2024,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",174.047180545499
+2024,"Ambitious-Double LFP-Baseline-Baseline-Baseline",179.116439905846
+2024,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",179.602473381229
+2024,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",179.777677365716
+2024,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",179.777677365716
+2025,"Ambitious-Baseline-Baseline-Baseline-Baseline",239.264918182985
+2025,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",239.241877394413
+2025,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",238.821965288449
+2025,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",239.09276427557
+2025,"Ambitious-Baseline-High Capacity-Baseline-Baseline",259.87948449453
+2025,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",227.466181707949
+2025,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",227.040230168046
+2025,"Ambitious-Double LFP-Baseline-Baseline-Baseline",238.182577119796
+2025,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",238.904548960003
+2025,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",239.264918182985
+2025,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",239.264918182985
+2026,"Ambitious-Baseline-Baseline-Baseline-Baseline",299.56900886667
+2026,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",299.537268855605
+2026,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",298.594410147593
+2026,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",299.185129154548
+2026,"Ambitious-Baseline-High Capacity-Baseline-Baseline",334.877127733907
+2026,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",278.686391110797
+2026,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",277.770100590759
+2026,"Ambitious-Double LFP-Baseline-Baseline-Baseline",297.99019980206
+2026,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",299.069184086381
+2026,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",299.56900886667
+2026,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",299.56900886667
+2027,"Ambitious-Baseline-Baseline-Baseline-Baseline",368.745258733638
+2027,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",368.691130599706
+2027,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",366.871570822307
+2027,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",367.98152361806
+2027,"Ambitious-Baseline-High Capacity-Baseline-Baseline",423.988107323907
+2027,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",335.872750632633
+2027,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",334.155000174739
+2027,"Ambitious-Double LFP-Baseline-Baseline-Baseline",366.566565314978
+2027,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",368.030450667496
+2027,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",368.745258733638
+2027,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",368.745258733638
+2028,"Ambitious-Baseline-Baseline-Baseline-Baseline",455.692965334924
+2028,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",455.590002529048
+2028,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",452.378583049069
+2028,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",454.369655972001
+2028,"Ambitious-Baseline-High Capacity-Baseline-Baseline",538.20518282704
+2028,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",406.292511868448
+2028,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",403.322267148073
+2028,"Ambitious-Double LFP-Baseline-Baseline-Baseline",452.801536607648
+2028,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",454.728153265251
+2028,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",455.692965334924
+2028,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",455.692965334924
+2029,"Ambitious-Baseline-Baseline-Baseline-Baseline",555.84949845826
+2029,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",555.854505051462
+2029,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",549.695358085681
+2029,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",553.530617442138
+2029,"Ambitious-Baseline-High Capacity-Baseline-Baseline",675.616134212346
+2029,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",483.500618021624
+2029,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",478.417355028662
+2029,"Ambitious-Double LFP-Baseline-Baseline-Baseline",552.057777745987
+2029,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",554.531897191979
+2029,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",555.84949845826
+2029,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",555.84949845826
+2030,"Ambitious-Baseline-Baseline-Baseline-Baseline",696.238169729914
+2030,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",696.081766326684
+2030,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",685.904324105458
+2030,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",692.638312345721
+2030,"Ambitious-Baseline-High Capacity-Baseline-Baseline",868.138777349897
+2030,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",591.170523005673
+2030,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",583.789916047666
+2030,"Ambitious-Double LFP-Baseline-Baseline-Baseline",691.282142943746
+2030,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",694.471287268283
+2030,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",691.54425664446
+2030,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",707.544367904212
+2031,"Ambitious-Baseline-Baseline-Baseline-Baseline",764.771645751015
+2031,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",764.449129556528
+2031,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",748.117335025472
+2031,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",759.378407220692
+2031,"Ambitious-Baseline-High Capacity-Baseline-Baseline",977.615887063611
+2031,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",635.108709179749
+2031,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",624.603033878853
+2031,"Ambitious-Double LFP-Baseline-Baseline-Baseline",758.989094182944
+2031,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",762.879580171359
+2031,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",754.363060826268
+2031,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",789.233438552407
+2032,"Ambitious-Baseline-Baseline-Baseline-Baseline",838.654836759784
+2032,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",838.170833950473
+2032,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",815.003430123474
+2032,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",831.243445524655
+2032,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1098.75673397029
+2032,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",679.935089161594
+2032,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",666.683599917468
+2032,"Ambitious-Double LFP-Baseline-Baseline-Baseline",831.952367321929
+2032,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",836.610515447516
+2032,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",821.755754260652
+2032,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",878.714586871587
+2033,"Ambitious-Baseline-Baseline-Baseline-Baseline",920.959865039936
+2033,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",920.261344361356
+2033,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",889.059577166188
+2033,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",911.243246896215
+2033,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1235.12977278921
+2033,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",727.904074008508
+2033,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",711.120161680063
+2033,"Ambitious-Double LFP-Baseline-Baseline-Baseline",913.268817508828
+2033,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",918.793767929988
+2033,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",896.364111921507
+2033,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",979.408347490784
+2034,"Ambitious-Baseline-Baseline-Baseline-Baseline",1006.79690523186
+2034,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1005.77440223297
+2034,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",965.417510994872
+2034,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",994.445613060636
+2034,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1380.98598819823
+2034,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",776.338556821033
+2034,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",755.095953615346
+2034,"Ambitious-Double LFP-Baseline-Baseline-Baseline",998.046914482277
+2034,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1004.60639772004
+2034,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",972.894145620047
+2034,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1085.95478124627
+2035,"Ambitious-Baseline-Baseline-Baseline-Baseline",1089.11303632344
+2035,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1087.94011926646
+2035,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1035.51324099219
+2035,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1073.5507301069
+2035,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1530.6810095833
+2035,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",816.22524653672
+2035,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",789.232533783248
+2035,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1079.30311733159
+2035,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1086.9398477144
+2035,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1046.1073580902
+2035,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1191.49442767926
+2036,"Ambitious-Baseline-Baseline-Baseline-Baseline",1145.44723305514
+2036,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1143.69814546433
+2036,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1077.39644534911
+2036,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1126.27364233216
+2036,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1607.92084966396
+2036,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",861.133023700697
+2036,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",827.84071841311
+2036,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1134.96203708095
+2036,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1143.43805180353
+2036,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1093.98673560962
+2036,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1269.54384735022
+2037,"Ambitious-Baseline-Baseline-Baseline-Baseline",1208.2135873208
+2037,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1205.97133191243
+2037,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1122.66078804638
+2037,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1184.77409366453
+2037,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1695.78631354446
+2037,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",907.977153249444
+2037,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",865.982316183567
+2037,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1196.98067821205
+2037,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1206.35351911471
+2037,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1147.82249667847
+2037,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1356.72850408233
+2038,"Ambitious-Baseline-Baseline-Baseline-Baseline",1273.30852945738
+2038,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1270.73335194079
+2038,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1166.66963376433
+2038,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1244.48137107816
+2038,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1786.99547053376
+2038,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",956.538774561847
+2038,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",904.214786409388
+2038,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1261.32968375122
+2038,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1271.67839220495
+2038,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1203.41713178796
+2038,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1448.1483554302
+2039,"Ambitious-Baseline-Baseline-Baseline-Baseline",1337.99439531082
+2039,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1337.75216102758
+2039,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1206.38110003323
+2039,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1302.79802905842
+2039,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1881.22223230596
+2039,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1004.47800011209
+2039,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",940.072825825792
+2039,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1325.30274964597
+2039,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1336.73074151776
+2039,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1258.37338018227
+2039,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1540.80068388244
+2040,"Ambitious-Baseline-Baseline-Baseline-Baseline",1412.14143571117
+2040,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1410.19304488286
+2040,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1252.63768353218
+2040,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1369.62920571515
+2040,"Ambitious-Baseline-High Capacity-Baseline-Baseline",1981.83550261552
+2040,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1061.43838904909
+2040,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",983.79186210489
+2040,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1398.73321557165
+2040,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1411.3359150755
+2040,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1319.78099915926
+2040,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1645.62331003441
+2041,"Ambitious-Baseline-Baseline-Baseline-Baseline",1452.68348024118
+2041,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1446.86531933571
+2041,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1258.68926396262
+2041,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1401.98107051445
+2041,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2034.7619273733
+2041,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1090.13866818986
+2041,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",997.225670543628
+2041,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1438.73964845551
+2041,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1452.26043193274
+2041,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1359.53832674739
+2041,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1692.29260499068
+2042,"Ambitious-Baseline-Baseline-Baseline-Baseline",1494.23239389886
+2042,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1488.78172996859
+2042,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1264.68614467744
+2042,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1434.8179844515
+2042,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2091.83663685885
+2042,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1120.8150246879
+2042,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",1010.91800880285
+2042,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1479.7333177328
+2042,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1494.12411900815
+2042,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1400.1637500103
+2042,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1741.85313018639
+2043,"Ambitious-Baseline-Baseline-Baseline-Baseline",1534.64406112408
+2043,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1529.61704486382
+2043,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1265.52503122711
+2043,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1465.98480741574
+2043,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2148.25225536389
+2043,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1151.84001522795
+2043,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",1021.94337987625
+2043,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1519.59549746438
+2043,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1534.85258025785
+2043,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1439.64726080734
+2043,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1790.65533374444
+2044,"Ambitious-Baseline-Baseline-Baseline-Baseline",1573.88581964558
+2044,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1568.63899620862
+2044,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1260.81604501812
+2044,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1495.18318445771
+2044,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2201.42163212881
+2044,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1178.74567946801
+2044,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",1029.93950125531
+2044,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1558.29635160731
+2044,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1574.40795211936
+2044,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1477.72492482926
+2044,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1838.7612424694
+2045,"Ambitious-Baseline-Baseline-Baseline-Baseline",1611.32919638811
+2045,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1605.95570359643
+2045,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1252.94168936645
+2045,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1521.45872202748
+2045,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2253.43633350521
+2045,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1204.93391126627
+2045,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",1037.35909369232
+2045,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1595.21225111413
+2045,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1612.17630156736
+2045,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1514.0041242788
+2045,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1885.3219839937
+2046,"Ambitious-Baseline-Baseline-Baseline-Baseline",1632.15098238479
+2046,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1627.42257625297
+2046,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1225.36380470775
+2046,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1531.25479993466
+2046,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2283.627405016
+2046,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1218.47906152663
+2046,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",1030.54768143263
+2046,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1615.69271810756
+2046,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1633.36209411275
+2046,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1534.92440109441
+2046,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1912.37675046707
+2047,"Ambitious-Baseline-Baseline-Baseline-Baseline",1654.41666871489
+2047,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1649.95575079372
+2047,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1199.54093656632
+2047,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1542.97471543437
+2047,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2313.76197823709
+2047,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1232.41009044547
+2047,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",1024.25648437571
+2047,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1637.58541556374
+2047,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1655.95808828655
+2047,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1557.14471903723
+2047,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1941.7494015733
+2048,"Ambitious-Baseline-Baseline-Baseline-Baseline",1674.65148639334
+2048,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1670.74022352117
+2048,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1171.80561135956
+2048,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1553.29240417499
+2048,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2340.64217448199
+2048,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1245.34008774192
+2048,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",1017.19358977975
+2048,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1657.46736668051
+2048,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1676.533456236
+2048,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1577.59165614128
+2048,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1968.65762522664
+2049,"Ambitious-Baseline-Baseline-Baseline-Baseline",1694.31815922009
+2049,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1690.73467502365
+2049,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1144.37687000689
+2049,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1563.96129309194
+2049,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2365.92628108371
+2049,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1258.7568019871
+2049,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",1010.80503518138
+2049,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1676.78136299908
+2049,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1696.54428122436
+2049,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1597.45457456756
+2049,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",1995.28990470229
+2050,"Ambitious-Baseline-Baseline-Baseline-Baseline",1715.16114277923
+2050,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1711.60700654691
+2050,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1119.85277536486
+2050,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1576.87844019258
+2050,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2392.2756701064
+2050,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1273.78957285448
+2050,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",1006.63316708387
+2050,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1697.26537990662
+2050,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1717.74048041586
+2050,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1618.46261752141
+2050,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2023.14958306376
+2051,"Ambitious-Baseline-Baseline-Baseline-Baseline",1724.90674789172
+2051,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1722.16659308517
+2051,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1085.39825008543
+2051,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1579.89581250927
+2051,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2403.14794534675
+2051,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1280.24588595382
+2051,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",991.702997171589
+2051,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1706.98673031018
+2051,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1727.4430368579
+2051,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1628.88079483744
+2051,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2035.90839526218
+2052,"Ambitious-Baseline-Baseline-Baseline-Baseline",1732.94523523245
+2052,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1731.01467989329
+2052,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1051.38462841114
+2052,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1581.53214554729
+2052,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2412.96414757063
+2052,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1285.78669728883
+2052,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",977.817949308016
+2052,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1715.01880271056
+2052,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1735.45637471702
+2052,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1637.77385013842
+2052,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2046.37837090202
+2053,"Ambitious-Baseline-Baseline-Baseline-Baseline",1741.68036198699
+2053,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1740.38015646457
+2053,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",1019.87469366693
+2053,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1584.95184813729
+2053,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2424.04454214015
+2053,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1292.09401685425
+2053,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",965.516905073155
+2053,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1723.73106630415
+2053,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1744.18758229785
+2053,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1647.2652286546
+2053,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2057.21655977292
+2054,"Ambitious-Baseline-Baseline-Baseline-Baseline",1750.81177378486
+2054,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1750.11947495634
+2054,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",991.395717483228
+2054,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1589.69557450732
+2054,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2436.3158707062
+2054,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1298.70021515284
+2054,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",954.628853869128
+2054,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1732.82194956303
+2054,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1753.33320760926
+2054,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1657.12081170011
+2054,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2067.96136323906
+2055,"Ambitious-Baseline-Baseline-Baseline-Baseline",1761.1558667641
+2055,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1760.75891750094
+2055,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",966.399076524366
+2055,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1596.45254341391
+2055,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2450.3070368613
+2055,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1306.03940870592
+2055,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",945.638392507624
+2055,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1743.10221282456
+2055,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1763.70079857635
+2055,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1667.99525680107
+2055,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2079.47559926613
+2056,"Ambitious-Baseline-Baseline-Baseline-Baseline",1771.8751991803
+2056,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1771.66731352832
+2056,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",944.247825700733
+2056,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1604.2432834869
+2056,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2464.98508417056
+2056,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1313.68229491475
+2056,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",937.862474863702
+2056,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1753.7437781777
+2056,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1774.45119077136
+2056,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1679.10561065233
+2056,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2091.03542606056
+2057,"Ambitious-Baseline-Baseline-Baseline-Baseline",1782.5806550779
+2057,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1782.49848107441
+2057,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",924.613854356283
+2057,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1612.53513662315
+2057,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2479.75013412858
+2057,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1321.51156210348
+2057,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",931.281669421216
+2057,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1764.36670688407
+2057,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1785.19232636166
+2057,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1690.03601842643
+2057,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2102.45782494192
+2058,"Ambitious-Baseline-Baseline-Baseline-Baseline",1793.28973195083
+2058,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1793.22689979434
+2058,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",907.554316844104
+2058,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1621.30008841869
+2058,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2494.48326420009
+2058,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1329.56957964611
+2058,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",925.978258644627
+2058,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1774.99288001359
+2058,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1795.9392370289
+2058,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1700.72814313442
+2058,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2114.02441294322
+2059,"Ambitious-Baseline-Baseline-Baseline-Baseline",1803.69377829405
+2059,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1803.65604808
+2059,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",892.735178956486
+2059,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1630.11945355835
+2059,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2508.87493378117
+2059,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1337.47560827621
+2059,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",921.769553151972
+2059,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1785.31536672641
+2059,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1806.39043754985
+2059,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1710.91064245611
+2059,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2125.61708013232
+2060,"Ambitious-Baseline-Baseline-Baseline-Baseline",1814.48747572567
+2060,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1814.45964948524
+2060,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",880.77732440295
+2060,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1639.65294054064
+2060,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2523.83728589433
+2060,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1345.75179400127
+2060,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",919.25341426013
+2060,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1796.02755315918
+2060,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1817.23545841425
+2060,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1721.33340718682
+2060,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2137.87246078813
+2061,"Ambitious-Baseline-Baseline-Baseline-Baseline",1825.20243740845
+2061,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1825.19564948498
+2061,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",871.036250120489
+2061,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1649.37482440369
+2061,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2538.77233448223
+2061,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1354.02349459956
+2061,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",917.660395511729
+2061,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1806.66575092642
+2061,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1828.00238589063
+2061,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1731.61513251427
+2061,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2150.13741606162
+2062,"Ambitious-Baseline-Baseline-Baseline-Baseline",1835.71741854393
+2062,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1835.72952103318
+2062,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",863.177613741122
+2062,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1659.10132437325
+2062,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2553.44682731653
+2062,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1362.18902463106
+2062,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",916.949327590523
+2062,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1817.11176610847
+2062,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1838.56435304402
+2062,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1741.6797624935
+2062,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2162.1758736288
+2063,"Ambitious-Baseline-Baseline-Baseline-Baseline",1846.0419112001
+2063,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1846.07121557049
+2063,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",857.075541600354
+2063,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1668.79169680853
+2063,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2567.86011514612
+2063,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1370.23959753133
+2063,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",917.053177750817
+2063,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1827.37288036347
+2063,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1848.92788838292
+2063,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1751.55476791181
+2063,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2173.96864329113
+2064,"Ambitious-Baseline-Baseline-Baseline-Baseline",1856.19618151058
+2064,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1856.24072567105
+2064,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",852.517980388676
+2064,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1678.44770242492
+2064,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2582.03601412303
+2064,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1378.18214867726
+2064,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",917.907171710359
+2064,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1837.46924641381
+2064,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1859.10964861911
+2064,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1761.26057170213
+2064,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2185.51463564803
+2065,"Ambitious-Baseline-Baseline-Baseline-Baseline",1866.59101581685
+2065,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1866.64874518839
+2065,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",849.786637618176
+2065,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1688.44108117793
+2065,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2596.54912970088
+2065,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1386.3150357047
+2065,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",919.740020111045
+2065,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1847.80637300481
+2065,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1869.52036813909
+2065,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1771.18826108397
+2065,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2197.29251940031
+2066,"Ambitious-Baseline-Baseline-Baseline-Baseline",1877.19243057913
+2066,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1877.25010630399
+2066,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",848.672353044689
+2066,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1698.71402062376
+2066,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2611.38125694383
+2066,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1394.61800652801
+2066,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",922.443431722731
+2066,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1858.34796955564
+2066,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1880.1310997069
+2066,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1781.30171444495
+2066,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2209.2795227106
+2067,"Ambitious-Baseline-Baseline-Baseline-Baseline",1888.19677760129
+2067,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1888.21381264403
+2067,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",849.159001995759
+2067,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1709.44894351464
+2067,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2626.78233841746
+2067,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1403.210772723
+2067,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",926.03904514651
+2067,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1869.28448072717
+2067,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1891.14425637138
+2067,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1791.77345417
+2067,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2221.74768940355
+2068,"Ambitious-Baseline-Baseline-Baseline-Baseline",1899.67295421579
+2068,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1899.65181713666
+2068,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",851.132145018992
+2068,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1720.68576334575
+2068,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2642.91942591108
+2068,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1412.20065699161
+2068,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",930.505830410629
+2068,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1880.68090226191
+2068,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1902.63426713531
+2068,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1802.68439198051
+2068,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2234.825529187
+2069,"Ambitious-Baseline-Baseline-Baseline-Baseline",1911.6842340922
+2069,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1911.6248169116
+2069,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",854.459915642142
+2069,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1732.48066031312
+2069,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2659.87427022318
+2069,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1421.65201803649
+2069,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",935.790718635527
+2069,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1892.59821593858
+2069,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1914.66877214211
+2069,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1814.0970300658
+2069,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2248.61146144383
+2070,"Ambitious-Baseline-Baseline-Baseline-Baseline",1924.42741874128
+2070,"Ambitious-Baseline-Baseline-Baseline-Enhanced SSPS",1924.32987955197
+2070,"Ambitious-Baseline-Baseline-Baseline-Enhanced recycling",859.161435720846
+2070,"Ambitious-Baseline-Baseline-Baseline-USA Recycling",1745.03329177099
+2070,"Ambitious-Baseline-High Capacity-Baseline-Baseline",2677.93057088689
+2070,"Ambitious-Baseline-Low Capacity-Baseline-Baseline",1431.65419987211
+2070,"Ambitious-Baseline-Low Capacity-Baseline-Recycling Medium",941.944393345397
+2070,"Ambitious-Double LFP-Baseline-Baseline-Baseline",1905.232632543
+2070,"Ambitious-Double NMC 811-Baseline-Baseline-Baseline",1927.44298311981
+2070,"Ambitious-Sodium Battery adoption-Baseline-Baseline-Baseline",1826.18758630447
+2070,"Ambitious-Solid State adoption-Baseline-Baseline-Baseline",2263.33502687823
