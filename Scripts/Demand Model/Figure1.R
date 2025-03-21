@@ -30,7 +30,6 @@ data_fig1 <- demand %>%
   mutate(name=factor(name,levels=scens_names)) %>% 
   mutate(scen_num=str_extract(name,paste(paste0("\\(",1:11,"\\)"),collapse="|")))
 
-
 cum_demand <- data_fig1 %>% group_by(name) %>% 
   reframe(Mton=sum(kton)/1e3) %>% ungroup() %>% arrange(desc(Mton))
 
@@ -56,7 +55,7 @@ p1 <- ggplot(data_fig1)+
               c(-0.3,-0.3,0,0,0,0,0,0.3,0.3,0,0), # nudge x
             size=6*5/14 * 0.8,
             # order: 1,8,9,10,2,3,11,5,4,7,6
-            nudge_y = c(0,2,0,-0.8,0,0,0,0,2,-0.2,0)*5e1)+
+            nudge_y = c(0,2,0,-0.8,0,0,0,0.5,2,-0.2,0)*5e1)+
   coord_cartesian(expand=F,xlim=c(2022,2051.1),
                   ylim=c(0,max(data_fig1$kton)*1.02))+
   labs(x="",y="",col="Demand Scenario",
@@ -111,11 +110,11 @@ p1a
 cowplot::plot_grid(p1,p1a,ncol=2,rel_widths = c(0.61,0.39))
 
 # Save with width size of letter
-ggsave("Figures/Fig1.png", ggplot2::last_plot(),
+ggsave("Figures/Figure1.png", ggplot2::last_plot(),
        units="cm",dpi=600,
        width=18.4,height=6.4)
 
-pdf("Figures/PDF/Fig1.pdf",width=18.4/2.54,height=6.4/2.54)
+pdf("Figures/PDF/Figure1.pdf",width=18.4/2.54,height=6.4/2.54)
 ggplot2::last_plot()
 dev.off()
 

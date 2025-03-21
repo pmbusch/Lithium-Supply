@@ -35,6 +35,9 @@ stationary_SIB$Vehicle <- "Stationary Power Storage"
 ## Mineral intensity -----
 
 mineral <- read_excel("Data/Demand Model/Mineral_Intensity.xlsx",sheet = "BatPac")
+unique(mineral$Mineral)
+# Model can actually calculate more than just lithium demand
+mineral <- mineral %>% filter(Mineral %in% c("Lithium")) # just Li
 
 ## Reuse statistics from Survival Model -----
 reuse <- read.csv("Parameters/Demand Intermediate Results/region_outflows_LIB.csv",
@@ -101,18 +104,23 @@ capacity_scen <- c("Baseline","Low Capacity","High Capacity")
 lifetime_scen <- c("Baseline")
 recycling_scen <- recycling_scenarios$recycling_scenario %>% unique()
 
+
+# *****************************
+# *****************************
+# UNCOMMENT HERE FOR DEMAND RECYCLING SENSITIVITY
 # global rec scenarios - uncomment to run recycling demand loop
 # recycling_scen <- global_rec_scenarios$recycling_scenarios %>% unique()
 # mat_recovery_recycling <- global_rec_scenarios
 # chems_scen <- c("Baseline")
+# *****************************
+# *****************************
 
 # results
 df_region_final <- c()
-df_country_final <- c() # slow, only for selected scenarios
+df_country_final <- c() # slow, run only for few selected scenarios
 start_time <- proc.time()
-# debug
-scen=scen_level[1];scen_chem=chems_scen[4];scen_bat=capacity_scen[2];scen_life=lifetime_scen[1];scen_recyc=recycling_scen[1];
-# scen=scen_level[3];scen_chem=chems_scen[1];scen_bat=capacity_scen[1];scen_life=lifetime_scen[1];scen_recyc=recycling_scen[1];
+# for debug
+# scen=scen_level[1];scen_chem=chems_scen[4];scen_bat=capacity_scen[2];scen_life=lifetime_scen[1];scen_recyc=recycling_scen[1];
 length(scen_level)*length(chems_scen)*length(capacity_scen)*length(lifetime_scen)*length(recycling_scen)
 for (scen in scen_level){
   cat("Scenario ICCT: ",scen,"\n")
@@ -129,7 +137,7 @@ for (scen in scen_level){
           scen_all <- paste(scen,scen_chem,scen_bat,scen_life,scen_recyc, sep="-")
           # comment to run recycling loop
           if(!(scen_all %in% scens_selected)){ # RUN ONLY DESIRED SCENARIOS
-            next
+            # next
             # this avoid running all possible combinatios of demand
             # parameters, and just focus on the 11 demand scenarios for the article
           }
@@ -186,34 +194,14 @@ for (scen in scen_level){
           
           # Add new requirement of batteries by sector
           
-          # Summarise kwh_veh through years as vectors
-          bat_ldv_loop$Year %>% range()
-          # bat_ldv_loop$Powertrain %>% unique()
-          # count of all years - complete?
-          bat_ldv_loop %>% 
-            # filter(Powertrain=="BEV") %>% 
-            group_by(Country,chemistry,Powertrain) %>% 
-            tally() %>% pull(n) %>% range()
-          
-      
           bat_ldv_chem <- bat_ldv_loop %>% 
-            # filter(Powertrain=="BEV") %>%
             arrange(Year) %>% 
             group_by(Powertrain,Country,chemistry) %>%
             summarise(kwh_veh = list(kwh_veh)) %>% ungroup()
           
-          # bat_ldv_chem %>% mutate(lenght=length(kwh_veh[[1]])) %>% pull(lenght) %>% unique() # 29 all of them
-          # bat_ldv_chem[9:11,]
-          
-          # the column kwh_chem contains the battery size for each year as a vector, from 2022 to 2050
-          # bat_ldv_chem %>% filter(Country=="United States",
-          #                         chemistry=="LFP") %>% pull(kwh_veh) # LFP increases in this scenario
-          # 
-          
           # DO THE SAME for reuse cars data.frame, but move vector of age to vector of years
           # Only cars have moving chemistry and size for now
           reuse_car <- reuse %>% filter(Vehicle=="Car") %>% 
-            # filter(Powertrain=="BEV") %>%
             filter(scen_lifetime==scen_life) %>% 
             filter(Scenario==scen) %>% 
             dplyr::select(Region,Year,perc_add_lib,add_LIB_vector,
@@ -231,7 +219,6 @@ for (scen in scen_level){
             perc_ssps=0.5
           }
           
-          # head(reuse_car) # some columns are vectors with the flow of EVs from age 1 to 30
           
           # do it directly with the function
           reuse_car <- reuse_car %>% 
@@ -251,7 +238,6 @@ for (scen in scen_level){
           bat_ldv_chem <- bat_ldv_chem %>% 
             mutate(join_dummy=1) %>% # to join expanding both dataframes
             left_join(dict_region) %>% # add region
-            # head() %>% 
             left_join(mutate(reuse_car,join_dummy=1),
                       relationship = "many-to-many") %>% 
             rowwise() %>% # MULTIPLY VECTORS rowise
@@ -295,8 +281,7 @@ for (scen in scen_level){
           lib_outflow <- df %>% 
             filter(Vehicle!="Car") %>% 
             left_join(dplyr::select(reuse_aux,-Sales))
-          # unique(lib_outflow$Powertrain);unique(lib_outflow$Vehicle);
-          # sum(is.na(lib_outflow$perc_lib_ssps))
+          
           lib_outflow <- lib_outflow %>% 
             rowwise() %>% # get average age of LIB flow 
             mutate(avgAge_LIB_available=weighted_avg_index(LIB_Available_vector)) %>%
@@ -342,7 +327,6 @@ for (scen in scen_level){
           stationary_loop <- stationary %>% 
             rename(kwh_required=stationaryPower) %>% # in Mwh 
             mutate(kwh_required=kwh_required*1e3)
-          # sum(stationary_loop$kwh_required)/1e9 # 16
           
           # reduce demand by using LIB outflow
           # Consider loss of State of Health capacity by age
@@ -372,8 +356,6 @@ for (scen in scen_level){
             left_join(dplyr::select(stationary_total,-lib_ssps_kwh,-allocate)) %>% 
             mutate(kwh_required=kwh_required*share_chem,
                    share_chem=NULL, avgAge_LIB_available=NULL)
-          # sum(stationary_loop$kwh_required)/1e9 # 11, less than before
-          
           
           # update lib outflow, other ssps goes to recycling
           stationary_total$Vehicle <- stationary_total$kwh_required <- stationary_total$lib_ssps_kwh <- NULL
@@ -406,18 +388,7 @@ for (scen in scen_level){
           ## Add Mineral Intensity --------
           
           df <- df %>% filter(kwh_required>0) 
-          
-          # use same chemistry for now
-          df$chemistry %>% unique()
-          # df %>% group_by(chemistry) %>% summarise(x=sum(kwh_required)) %>% arrange(x)
-          # mineral$chemistry %>% unique()
-          
-          unique(mineral$Mineral)
-          # Model can actually calculate more than just lithium demand
-          mineral <- mineral %>% filter(Mineral %in% c("Lithium")) 
-          
           df <- df %>% left_join(mineral,relationship = "many-to-many")
-          # nrow(df)/1e6 # 4.9 MILLION
           
           ####################
           # CALCULATIONS ---------
@@ -495,20 +466,20 @@ for (scen in scen_level){
         rm(df_region)
         
         # Save results at Coutry level - SLOW!
-        # df_country <- df %>%
-        #   group_by(Year,Region,Country,Powertrain,Vehicle,chemistry,Mineral) %>%
-        #   reframe(tons_mineral=sum(tons_mineral)) %>% ungroup()
-        # nrow(df_country) #
-        # # add scenarios
-        # df_country$Scenario <- scen
-        # df_country$chem_scenario <- scen_chem
-        # df_country$capacity_scenario <- scen_bat
-        # df_country$lifetime_scenario <- scen_life
-        # df_country$recycling_scenario <- scen_recyc
-        # # bind
-        # df_country <- df_country %>% filter(abs(tons_mineral)>0)
-        # df_country_final <- rbind(df_country_final,df_country)
-        # rm(df_country)
+        df_country <- df %>%
+          group_by(Year,Region,Country,Powertrain,Vehicle,chemistry,Mineral) %>%
+          reframe(tons_mineral=sum(tons_mineral)) %>% ungroup()
+        nrow(df_country) #
+        # add scenarios
+        df_country$Scenario <- scen
+        df_country$chem_scenario <- scen_chem
+        df_country$capacity_scenario <- scen_bat
+        df_country$lifetime_scenario <- scen_life
+        df_country$recycling_scenario <- scen_recyc
+        # bind
+        df_country <- df_country %>% filter(abs(tons_mineral)>0)
+        df_country_final <- rbind(df_country_final,df_country)
+        rm(df_country)
 
         }
       }
@@ -517,7 +488,7 @@ for (scen in scen_level){
 }
 rm(scen,scen_chem,scen_bat)
 end_time <- proc.time() # Capture the ending time
-print(end_time - start_time) 
+print(end_time - start_time) # 60 secs for 11 demand scenarios, 120 secs for recycling scens
 
 ## Save results -----
 # only selected scenarios
@@ -525,17 +496,23 @@ df_scen <- df_region_final %>%
   mutate(scen_all=paste(Scenario,chem_scenario,
                         capacity_scenario,
                         lifetime_scenario,recycling_scenario,sep="-"))
-  # filter(scen_all %in% scens_selected)
 df_scen$scen_all %>% unique()
 write.csv(df_scen,"Results/MineralDemand_FewScenarios.csv",row.names = F)
 
 # recycling loop - uncomment to save results for recycling loop
 # write.csv(df_scen,"Results/MineralDemand_RecyclingLoop.csv",row.names = F)
 
-
 df_country_final <- df_country_final %>% 
   mutate(scen_all=paste(Scenario,chem_scenario,capacity_scenario,
                         lifetime_scenario,recycling_scenario,sep="-"))
 write.csv(df_country_final,"Results/MineralDemand_FewScenarios_Country.csv",row.names = F)
+
+# get only recycling part - faster to load for Table 1 Results
+country_recycling <- df_country_final %>% rename(t=Year) %>%
+  filter(Mineral=="Lithium") %>%
+  filter(Vehicle=="Recycling") %>%
+  group_by(scen_all,Region,Country,t) %>%
+  reframe(Recycling=-sum(tons_mineral)/1e3)
+write.csv(country_recycling,"Results/CountryRecycling.csv",row.names = F)
 
 # EoF

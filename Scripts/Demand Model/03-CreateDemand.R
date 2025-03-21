@@ -1,5 +1,6 @@
 # Compile world Mineral Demand from results of the Demand Module
 # Creates the Input for the Optimization Model
+# Just puts the previous calculated results in the right format for the Optimization
 # PBH February 2024
 
 source("Scripts/00-Libraries.R", encoding = "UTF-8")
@@ -7,12 +8,10 @@ source("Scripts/01-CommonVariables.R", encoding = "UTF-8")
 
 
 # load demand results -----
-df <- read.csv("Results/MineralDemand_FewScenarios.csv") # much faster
-# uncomment for recycling loops results
-# df <- read.csv("Results/MineralDemand_RecyclingLoop.csv") # recycling loop
+# df <- read.csv("Results/MineralDemand_FewScenarios.csv") # much faster
 
-# Filter - Lithium 
-df <- df %>% filter(Mineral=="Lithium")
+# uncomment for recycling loops results
+df <- read.csv("Results/MineralDemand_RecyclingLoop.csv") # recycling loop
 
 # Combine Scenarios
 df <- df %>% mutate(Scenario=paste(Scenario,
@@ -20,7 +19,7 @@ df <- df %>% mutate(Scenario=paste(Scenario,
                                    capacity_scenario,
                                    lifetime_scenario,
                                    recycling_scenario,sep="-"))
-df$Scenario %>% unique()
+df$Scenario %>% unique() # 11 demand scenarios
 
 # Scenarios -----
 
@@ -62,7 +61,7 @@ write.csv(df_sector,"Parameters/Demand_Detail.csv",row.names = F)
 write.csv(df_region,"Parameters/Demand_Region.csv",row.names = F)
 
 
-# Figure
+# Exploratory Figure
 ggplot(df,aes(t,Demand,group=Scenario))+
   # geom_line(alpha=.5,col="darkgrey")+
   geom_line(alpha=.5,aes(col=Scenario))+
