@@ -2,7 +2,6 @@
 # PBH June 2024
 # Fig widths note: 1 column=5.7cm, 2 col=12.1cm or 3 col=18.4cm
 
-
 source("Scripts/00-Libraries.R", encoding = "UTF-8")
 source("Scripts/01-CommonVariables.R", encoding = "UTF-8")
 
@@ -294,6 +293,5 @@ ggsave("Figures/Figure2.png", ggplot2::last_plot(),
 pdf("Figures/PDF/Figure2.pdf",width=18.4/2.54,height=12.4/2.54)
 ggplot2::last_plot()
 dev.off()
-
 
 # EoF

@@ -127,8 +127,8 @@ p2 <- ggplot(data_fig,aes(as.numeric(name_abr)-0.15,mtons))+
             aes(x=as.numeric(name_abr)+0.15,label = country_label,group=group_plot,col=white_font))+
   # Formatting and colors
   labs(x="Lithium Demand Scenario",
-       title="2022-2050 Li metal Supply [million tons]",
-       # title="2050 Li metal Supply [million tons]",
+       # title="2022-2050 Li metal Supply [million tons]",
+       title="2050 Li metal Supply [million tons]",
        y="")+
   scale_x_continuous(breaks=1:11,labels=name_abbr)+
   scale_fill_manual(values = c("Recyc."="#009E73","Brine"="#0000FF33",
@@ -156,9 +156,8 @@ dev.off()
 
 # to save 2050
 # Fig. S3. 2050 Lithium extraction by resource type and country of extraction
-# ggsave("Figures/Figure3_2050.png", ggplot2::last_plot(),
-#        units="cm",dpi=600,
-# width=12.1,height=12.1)
+# ggsave("Figures/Supply/Figure3_2050.png", ggplot2::last_plot(),
+#        units="cm",dpi=600,width=12.1,height=12.1)
 
 
 # for scenario 4, biggest suppliers by country and type
@@ -181,7 +180,7 @@ df_results %>%
   reframe(tons=sum(tons_extracted)/1e3) %>% ungroup() %>% 
   group_by(t) %>% mutate(share=tons/sum(tons)) %>% 
   arrange(desc(tons)) %>% slice_max(order_by = tons,n=1) %>% 
-  # head(12)
+  # head(18)
   filter(t==2050)
 
 # Lithium demand by time and region -----
@@ -223,7 +222,7 @@ data_region %>%
                                "Germany"="#a6cee3","Mali"="#008000","Others"="#808080"))+
   scale_x_continuous(breaks = c(2030, 2040, 2050))+
   theme(axis.text.x = element_text(hjust=1),
-        strip.text = element_text(size=7))
+        strip.text = element_text(size=6))
 
 ggsave("Figures/Supply/Production.png", ggplot2::last_plot(),
        units="cm",dpi=600,

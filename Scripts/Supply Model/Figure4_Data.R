@@ -1,4 +1,5 @@
 # 2050 Comparison Map of Open Deposits by Scenario
+# Prepares csv datafile that can be loaded to QGIS for map creation (lat/long points)
 # PBH July 2024
 
 # Load data -------

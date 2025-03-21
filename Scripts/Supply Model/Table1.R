@@ -137,6 +137,9 @@ discounter <- tibble(t=2022:(t_size+2021),r=(1+discount_rate)^(0:(t_size-1)))
 (table_cost <- df_results %>%
     filter(t<2051) %>% 
     left_join(deposit) %>% 
+    # tons_extracted are in ktons
+    # cost are in USD per ton
+    # divide by 1e6 to million USD, multiply by 1e3 to get to kton
     mutate(total_cost=cost1*tons_extracted1/1e3+
              cost2*tons_extracted2/1e3+
              cost3*tons_extracted3/1e3+
@@ -148,7 +151,8 @@ discounter <- tibble(t=2022:(t_size+2021),r=(1+discount_rate)^(0:(t_size-1)))
     ungroup() %>% 
     left_join(filter(slack,t<2051)) %>%
     mutate(total_cost=total_cost+value*bigM_cost) %>%
-    left_join(discounter) %>% 
+    left_join(discounter) %>%
+    # mutate(r=1) %>% # no discount
     mutate(total_cost=total_cost/r/1e3) %>% # to billion
     group_by(name) %>% 
     reframe(total_cost=sum(total_cost)))
@@ -168,7 +172,7 @@ discounter <- tibble(t=2022:(t_size+2021),r=(1+discount_rate)^(0:(t_size-1)))
 (table_slack <- slack %>% filter(t<2051) %>% 
     group_by(name) %>% reframe(slack=sum(value)))
 
-# as share of extraction - less than 0.5%
+# as share of extraction - less than 0.2%
 df_results %>% filter(t<2051) %>% 
   group_by(name) %>% reframe(tons=sum(tons_extracted)) %>% 
   left_join(table_slack) %>% mutate(share_perc=slack/tons*100)
@@ -201,20 +205,7 @@ df_results %>% filter(t<2051) %>%
 ## HHI Index with recycling
 ## Get demand by country
 
-
-# SLOW TO LOAD - uncomment
-# df_country_final <- read.csv("Results/MineralDemand_FewScenarios_Country.csv")
-
-# get only recycling
-# country_recycling <- df_country_final %>% rename(t=Year) %>% 
-#   filter(Mineral=="Lithium") %>% 
-#   filter(Vehicle=="Recycling") %>% 
-#   group_by(scen_all,Region,Country,t) %>% 
-#   reframe(Recycling=-sum(tons_mineral)/1e3)
-
-# save it if do not want to run full code above that takes a lot of time
-# write.csv(country_recycling,"Results/CountryRecycling.csv",row.names = F)
-
+# Recyclings results by country - from Mineral Demand Model
 country_recycling <- read.csv("Results/CountryRecycling.csv")
 
 # recycling supply by country
@@ -255,7 +246,6 @@ both_supply <- rbind(country_supply,country_recycling) %>%
   # Index
   reframe(hhi_rec=sum(market_share^2),
           top_names_rec=first(top_names)) %>% ungroup())
-
 
 # Join all
 (table_all <- table_demand %>% 

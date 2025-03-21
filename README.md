@@ -1,6 +1,6 @@
 # Effects of Demand and Recycling on the When and Where of Lithium Extraction
 
-Replication materials for Busch *et al.* (2024), submitted article.
+Replication materials for Busch *et al.* (2024).
 
 The following code and data allows for the reproduction of all the tables, figures and calculations made in the article, both in the main body and supplementary information.
 
@@ -30,12 +30,12 @@ Users can either used the uploaded model results to replicate figures, or run ne
 Please note that each optimization run takes around 5 to 60 seconds to run.
 
 The runtimes of the main analysis scripts are (to generate the figures with the uploaded results, or to replicate existing results):
-* **Figure1.R**: 1 minute (10 minutes if the user wants to re-run the demand model results)
+* **Figure1.R**: 1 minute (~3 minutes if the user wants to re-run the demand model results)
 * **Figure2.R**: 1 minute
-* **Table1.R**: 2 minutes (10 minutes to re-run the 11 scenarios using the optimization model)
-* **Figure3.R**: 1 minute (10 minutes to re-run the 11 scenarios using the optimization model)
-* **Figure4_Data.R**: 1 minute (10 minutes to re-run the 11 scenarios using the optimization model)
-* **Figure5.R**: 3 minutes (~150 minutes to re-run the 231 scenarios (21 supply scenarios by 11 demand scenarios) using the optimization model)
+* **Table1.R**: 2 minutes (15 minutes to re-run the 11 scenarios using the optimization model)
+* **Figure3.R**: 1 minute (15 minutes to re-run the 11 scenarios using the optimization model)
+* **Figure4_Data.R**: 1 minute (15 minutes to re-run the 11 scenarios using the optimization model)
+* **Figure5.R**: 3 minutes (~4 hours to re-run the 231 scenarios (21 supply scenarios by 11 demand scenarios) using the optimization model)
 
 # Software required
 

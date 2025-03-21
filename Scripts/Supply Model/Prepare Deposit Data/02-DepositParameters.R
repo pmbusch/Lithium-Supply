@@ -1,4 +1,5 @@
 # Compile Parameters for Deposits based on Database of data
+# Contains quite a few of figures presented on the SI
 # March 2024 PBH
 
 
@@ -267,7 +268,7 @@ df %>% filter(resource_demostrated==0,resource_inferred>0) %>%
 
 
 # Max Production Rate ---------
-# 5% max depletion rate for hard rock and 3% for others (DLEc and clay) and 
+# 5% max depletion rate for hard rock and 3% for others (DLE and clay) and 
 # 1% for evaporation
 dep_rate <- tibble(Resource_Type=unique(df$Resource_Type)) %>% 
   mutate(dep_rate=case_when(
@@ -294,9 +295,9 @@ df <- df %>% mutate(max_ramp_up=max_prod_rate/4)
 
 #merge coefs
 # avoid volcano
-(coefs <- tibble(Resource_Type=c(rep("Brine",2),rep("Hard Rock",2),rep("Volcano-Sedimentary",2)),
-       var=c(names(coef_brine),names(coef_rock),names(coef_volcano)),
-       coef=c(coef_brine,coef_rock,coef_volcano)) %>% 
+(coefs <- tibble(Resource_Type=c(rep("Brine",2),rep("Hard Rock",2)),
+       var=c(names(coef_brine),names(coef_rock)),
+       coef=c(coef_brine,coef_rock)) %>% 
     mutate(var=str_remove_all(var,"\\(|\\)"),
            var=paste0("cExt_",var)) %>% 
   pivot_wider(names_from = var, values_from = coef))
@@ -327,7 +328,6 @@ ggplot(df,aes(cost1,fill=Resource_Type))+geom_density(alpha=.4)
 
 df %>% filter(!is.na(cost1)) %>% nrow()
 
-
 # quantile by type and for reserves, resources and inferred resources
 # get differences to avoid issues of cost 1 > cost 2
 (cost_avg <- df %>% group_by(Resource_Type) %>% 
@@ -340,7 +340,7 @@ df %>% filter(!is.na(cost1)) %>% nrow()
 # Note: with weighted quantiles it does not change that much
 
 # For volcano-sedimentary there are not enough data points
-# USE quantiles from every deposit then
+# Use quantiles from every deposit then
 cost_avg[3,2] <- quantile(df$cost1,0.75,na.rm=T)
 cost_avg[3,3] <- quantile(df$cost1,0.9,na.rm=T)-quantile(df$cost1,0.75,na.rm=T)
 cost_avg[3,4] <- quantile(df$cost1,0.99,na.rm=T)-quantile(df$cost1,0.75,na.rm=T)
@@ -349,7 +349,7 @@ cost_avg
 
 
 # Sample from quantile to upper tail
-# Why sample: to avoid tipping point with same values of costs
+# Why sample from distribution? To avoid a tipping point effect with same values of costs
 set.seed(13062024)
 # Use quantile 
 df <- df %>% 
@@ -376,15 +376,6 @@ df %>% filter(!is.na(cost2)) %>% nrow()
 
 df %>% filter(cost2<cost1) # to check
 
-# OLD
-# get quantiles of difference between cost2 and 1
-# (cost_avg2 <- df %>%
-#     mutate(diff_cost=cost2-cost1) %>%
-#     group_by(Resource_Type) %>%
-#     reframe(avg_cost2=quantile(diff_cost,0.8,na.rm=T)))
-
-#df %>% group_by(Resource_Type) %>% dplyr::select(Resource_Type,cost2) %>% skimr::skim_without_charts()  
-
 df <- df %>% 
   dplyr::select(-avg_cost1) %>% 
   # left_join(cost_avg2) %>% 
@@ -406,11 +397,6 @@ df <- df %>%
 df %>% filter(!is.na(cost3)) %>% nrow()
 df %>%  filter(cost3<cost2) # to check
 
-# OLD get quantiles of difference
-# (cost_avg3 <- df %>% 
-#     mutate(diff_cost=cost3-cost2) %>% 
-#     group_by(Resource_Type) %>% 
-#     reframe(avg_cost3=quantile(diff_cost,0.8,na.rm=T)))
 
 df <- df %>% 
   dplyr::select(-avg_cost2) %>% 
@@ -463,7 +449,6 @@ df <- df %>%
   mutate(tax_cost=(li_price-cost1)*Corporate_Tax_Rate)
 
 df %>% 
-  # filter(Country=="United States") %>% 
   dplyr::select(Resource_Type,Deposit_Name,cost1,royalty,tax_cost) %>% 
   pivot_longer(c(cost1,royalty,tax_cost), names_to = "key", values_to = "value") %>% 
   mutate(value=value/5.323) %>% 
@@ -509,8 +494,6 @@ coefs_exp[3,2] <- 250 # for Volcano
 df <- df %>% 
   left_join(coefs_exp) %>% 
   mutate(cost_expansion=cExp_Project_Capacity_Li_ktons*1e3) #USD per tpa in expansion
-  # mutate(resource=Resource_Li_ktons) %>% 
-  # mutate(cost_expansion=exp((resource-reserve)/resource)*cost_extraction)
 
 # Current production rate -----
 # USGS 2022 and 2023 production data by country
@@ -518,7 +501,6 @@ df <- df %>%
    mutate(Year=paste0("prod_rate",Year)) %>% 
    mutate(USGS_production=USGS_production/1e3) %>% # to ktons
    pivot_wider(names_from = Year, values_from = USGS_production))
-
 
 # Give to open mines in countries - shares of 2025 capacity
 table(df$Capacity_Forecast_Status)
@@ -601,10 +583,7 @@ df <- df %>%
   mutate(max_prod_rate=if_else(max_prod_rate>prod_rate2023,max_prod_rate,prod_rate2023)) %>% 
   mutate(max_prod_rate=if_else(max_prod_rate>prod_rate2025,max_prod_rate,prod_rate2025)) %>% 
   mutate(max_prod_rate=if_else(max_prod_rate>prod_rate2030,max_prod_rate,prod_rate2030))
-  
-
 df <- df %>% mutate(max_ramp_up=max_prod_rate/4)
-
 
 # Filter only deposits with actual reserves
 df <- df %>% filter(reserve+resource_demostrated+resource_inferred>0)
@@ -618,7 +597,6 @@ names(edb) <- c("Country","edb")
 
 # add by country
 df <- df %>% left_join(edb) %>% 
-  # mutate(edb=if_else(open_mine==T,100,edb)) %>%  # if opened, no cost
   mutate(edb=100-edb) # from 0 (better) to 100, to minimize
 
 # WGI - Political Stability
@@ -642,8 +620,6 @@ all_indexes <- wcr %>%
 cor(all_indexes$edb,all_indexes$wgi,method = "pearson")
 cor(all_indexes$wcr,all_indexes$edb,method = "pearson")
 cor(all_indexes$wcr,all_indexes$wgi,method = "pearson")
-
-
 rm(all_indexes)
 
 # save -----
@@ -662,7 +638,7 @@ df <- df %>% rownames_to_column() %>% rename(d=rowname)
 df$d <- as.numeric(df$d)
 
 
-# Names selection - for map
+# Names selection - for map labelling only
 head(df)
 df <- df %>% 
   mutate(label_name=if_else(all_resource>1000,Deposit_Name,"")) %>% 
@@ -676,7 +652,10 @@ df <- df %>%
 head(df)
 write.csv(df,"Parameters/Deposit.csv",row.names = F)
 
-# Scenarios Save ------
+# Sensitivity Scenarios Save ------
+# Create different variations of the deposit input to run different
+# deposit sensitivity scenarios
+
 url_scen <- "Parameters/Deposit_scenarios/%s.csv"
 df_orig <- df
 
@@ -718,10 +697,11 @@ df <- df %>%
 df <- df %>% mutate(max_ramp_up=max_prod_rate/4)
 write.csv(df,sprintf(url_scen,"2_prodRate"),row.names = F)
 
-# All DLE - 3% depletion rate
+# All DLE - 3% depletion rate for brine
 df <- df_orig %>% mutate(max_prod_rate=all_resource*case_when(
   Resource_Type=="Hard Rock" ~ 0.05,
   T ~ 0.03))
+
 # Ensure current prod rate are ok
 df <- df %>%
   mutate(max_prod_rate=if_else(max_prod_rate>prod_rate2022,max_prod_rate,prod_rate2022)) %>% 
@@ -740,7 +720,7 @@ df <- df %>%
          cost3=cost3-if_else(Resource_Type=="Brine",900*5.323,0))
 write.csv(df,sprintf(url_scen,"AllDLE_prodRate"),row.names = F)
 
-# NO DLE
+# NO DLE - Brine 1%
 df <- df_orig %>% mutate(max_prod_rate=all_resource*case_when(
   Resource_Type=="Hard Rock" ~ 0.05,
   Resource_Type=="Brine" ~ 0.01,
@@ -805,9 +785,7 @@ write.csv(df,sprintf(url_scen,"RockTransportCosts"),row.names = F)
 # Figure ----
 
 # Fig. S15. Resources by stage (reserve, demonstrated resources and inferred resources) and lithium resource type
-
-df_country <- deposit %>% 
-  # mutate(Resource_Type=Resource_Type_orig) %>% 
+df_country <- df_orig %>% 
   group_by(Resource_Type,Country) %>% 
   reframe(reserve=sum(reserve)/1e3,
           resource_demonstrated=sum(resource_demostrated)/1e3,
