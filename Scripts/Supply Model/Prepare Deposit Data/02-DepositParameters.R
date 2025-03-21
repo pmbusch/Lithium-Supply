@@ -636,6 +636,16 @@ range(wcr$wcr)
 df <- df %>% left_join(wcr) %>% 
   mutate(wcr=100-wcr) # from 0 (better) to 100, to minimize
 
+# correlations of index - included countries
+all_indexes <- wcr %>% 
+  left_join(wgi) %>% left_join(edb)
+cor(all_indexes$edb,all_indexes$wgi,method = "pearson")
+cor(all_indexes$wcr,all_indexes$edb,method = "pearson")
+cor(all_indexes$wcr,all_indexes$wgi,method = "pearson")
+
+
+rm(all_indexes)
+
 # save -----
 # Select only required columns
 df <- df %>% dplyr::select(Country,Deposit_Name,Resource_Type,Latitude,Longitude,
