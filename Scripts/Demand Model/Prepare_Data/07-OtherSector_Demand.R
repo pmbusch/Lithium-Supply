@@ -1,107 +1,21 @@
 # PBH January 2024
 # Compute mineral demand from other sectors
+# Projected based on GDP or population forecasts
 
 # Libraries
 source("Scripts/00-Libraries.R", encoding = "UTF-8")
 source("Scripts/01-CommonVariables.R", encoding = "UTF-8")
-
-
 url_file <- "Data/Demand Model/OtherSectors_Demand.xlsx"
 
-
 other_sector_demand <- tibble(year=2022:2070)
-
-# NICKEL --------
-sheet <- "Nickel"
-
-## Stainless steel --------
-
-# historical data
-ss <- read_excel(url_file,sheet,"B30:E47")
-(names(ss) <- c("year","a","ss_ton","gdp"))
-ss$a <- NULL
-
-# fit regression
-mod1 <- lm(ss_ton~gdp-1,data=ss) # no intercept, to track growth based on GDP
-summary(mod1)
-
-ggplot(ss,aes(gdp,ss_ton))+geom_point()+geom_smooth(method="lm")
-cor(ss$ss_ton,ss$gdp)
-
-# gdp forecast
-gdp <- read_excel(url_file,"GDP","A1:D72")
-names(gdp)
-gdp <- gdp %>% filter(year>2021,year<2071)
-
-# stainless steel growth
-gdp$ss <- predict(mod1,tibble(gdp=gdp$gdp))
-
-ggplot(gdp,aes(year,ss))+geom_line()
-
-# Nickel
-# USGS wolrd primary nickel requirement
-(ss_nickel_intensity <- 2.33*0.66/50.7*1e3) # kg Ni per ton Stainless Steel
-
-gdp$Ni_stainlessSteel <- gdp$ss*ss_nickel_intensity/1e3 # tons Nickel
-
-# add to maindatabase
-# other_sector_demand <- other_sector_demand %>% 
-#   left_join(dplyr::select(gdp,year,Ni_stainlessSteel))
-
-## GDP driver ------
-gdp <- read_excel(url_file,"GDP","A1:D72")
-
-gdp_2018 <- gdp %>% filter(year==2018) %>% pull(gdp)
-gdp <- gdp %>% filter(year>2021,year<2071) %>% mutate(ratio_2018=gdp/gdp_2018)
-
-# use ratio to expand
-ni_2018 <- 2.33*1e6 # consumption
-other_sector_demand$Ni_nonferrousAlloys <- gdp$ratio_2018*ni_2018*0.1 
-other_sector_demand$Ni_electroplating <- gdp$ratio_2018*ni_2018*0.09
-other_sector_demand$Ni_alloySteels <- gdp$ratio_2018*ni_2018*0.08
-other_sector_demand$Ni_foundry <- gdp$ratio_2018*ni_2018*0.03
-# better to use GDP growth directly
-other_sector_demand$Ni_stainlessSteel <- gdp$ratio_2018*ni_2018*0.66
 
 # LITHIUM -----------
 sheet <- "Lithium"
 li_cons <- 49000 # Li 2018 consumption
 
-## Ceramics & Glass ----------
-
-# historical data
-cg <- read_excel(url_file,sheet,"A48:G57")
-(names(cg) <- c("year","a","a1","cer","glass","cg","gdp"))
-
-# fit regression
-mod2 <- lm(cg~gdp-1,data=cg) # no intercept
-summary(mod2)
-cor(cg$cg,cg$gdp)
-
-ggplot(cg,aes(gdp,cg))+geom_point()+geom_smooth(method="lm")
-
-# gdp forecast
-gdp <- read_excel(url_file,"GDP","A1:D72")
-gdp <- gdp %>% filter(year>2021,year<2051)
-
-# stainless steel growth
-gdp$cg <- predict(mod2,tibble(gdp=gdp$gdp))
-
-ggplot(gdp,aes(year,cg))+geom_line()
-
-gdp$Li_ceramics <- gdp$cg # in metric tons
-
-# add to maindatabase
-# other_sector_demand <- other_sector_demand %>% 
-#   left_join(dplyr::select(gdp,year,Li_ceramics))
-
-## Lubricant Grease -------
-
-# use constant data for 2018 
-
+# # Keep constant -----
 # tons
 other_sector_demand$Li_lubricant <- li_cons*0.06 # 6% of consumption
-
 
 ## GDP driver ------
 gdp <- read_excel(url_file,"GDP","A1:D72")
@@ -109,13 +23,10 @@ gdp <- read_excel(url_file,"GDP","A1:D72")
 gdp_2018 <- gdp %>% filter(year==2018) %>% pull(gdp)
 gdp <- gdp %>% filter(year>2021,year<2071) %>% mutate(ratio_2018=gdp/gdp_2018)
 
-
 # use ratio to expand
 other_sector_demand$Li_polymer <- gdp$ratio_2018*li_cons*0.04 # 4% of 2018 consumption
 other_sector_demand$Li_castingMold <- gdp$ratio_2018*li_cons*0.03 # 3% of 2018 consumption
-# expand based on GDP
 other_sector_demand$Li_ceramics <- gdp$ratio_2018*li_cons*0.22
-
 
 ## Population driver -----------
 pop <- read_excel(url_file,"Population","A1:C152")
@@ -127,42 +38,15 @@ other_sector_demand$Li_AirTreatment <- pop$ratio_2018*li_cons*0.02 # 2% of 2018 
 other_sector_demand$Li_OtherUses <- pop$ratio_2018*li_cons*0.06 # 6% of 2018 consumption
 other_sector_demand$Li_PortableElectronics <- pop$ratio_2018*li_cons*0.57*0.25 
 
-# COBALT ----------
-
-co_cons <- 187000 # Cobalt consumption 2022
-
-## GDP driver ------
-gdp <- read_excel(url_file,"GDP","A1:D72")
-
-gdp_2022 <- gdp %>% filter(year==2022) %>% pull(gdp)
-gdp <- gdp %>% filter(year>2021,year<2071) %>% mutate(ratio_2022=gdp/gdp_2022)
-
-# use ratio to expand
-other_sector_demand$Co_superalloys <- gdp$ratio_2022*co_cons*0.09
-other_sector_demand$Co_HardMetals <- gdp$ratio_2022*co_cons*0.05
-other_sector_demand$Co_Catalyst <- gdp$ratio_2022*co_cons*0.03
-other_sector_demand$Co_Ceramic <- gdp$ratio_2022*co_cons*0.03
-other_sector_demand$Co_Othes <- gdp$ratio_2022*co_cons*0.1
-
-## Population driver -----------
-pop <- read_excel(url_file,"Population","A1:C152")
-pop_2022 <- pop %>% filter(year==2022) %>% pull(pop_thousand)
-pop <- pop %>% filter(year>2021,year<2071) %>% mutate(ratio_2022=pop_thousand/pop_2022)
-
-# use ratio to expand
-other_sector_demand$Co_PortableElectronics <- pop$ratio_2022*co_cons*0.3 
-
 
 # Data manipulation --------
 names(other_sector_demand)
 other_sector_demand <- other_sector_demand %>% 
   rename(Year=year) %>% 
   pivot_longer(c(-Year), names_to = "key", values_to = "tons_mineral") %>% 
-  mutate(Mineral=str_extract(key,"Li|Co|Ni")) %>% 
-  mutate(Mineral=Mineral %>% str_replace("Li","Lithium") %>% 
-           str_replace("Ni","Nickel") %>% 
-           str_replace("Co","Cobalt"),
-         Powertrain=str_remove(key,"Li_|Co_|Ni_"),
+  mutate(Mineral=str_extract(key,"Li")) %>% 
+  mutate(Mineral=Mineral %>% str_replace("Li","Lithium"),
+         Powertrain=str_remove(key,"Li_"),
          key=NULL) 
 # Aggregate to sectors
 other_sector_demand %>% group_by(Powertrain,Mineral) %>%
@@ -171,7 +55,6 @@ other_sector_demand %>% group_by(Powertrain,Mineral) %>%
   
 other_sector_demand <- other_sector_demand %>% 
   mutate(Powertrain=case_when(
-    Powertrain=="stainlessSteel" ~ "Stainless Steel",
     Powertrain %in% c("ceramics","Ceramic") ~ "Ceramics",
     Powertrain=="PortableElectronics" ~ "Portable Electronics",
     T ~ "Non-battery sectors")) %>% 

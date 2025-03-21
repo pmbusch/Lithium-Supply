@@ -9,7 +9,6 @@ country_level <- read_excel("Data/Dimensions.xlsx",sheet="Country")$Country
 vehicle_level <- read_excel("Data/Dimensions.xlsx",sheet="Vehicle")$Vehicle
 
 
-
 # Create a named vector of colors for each region
 region_colors <- c("United States" = "#1f78b4",
                    "Mexico" = "#33a02c",

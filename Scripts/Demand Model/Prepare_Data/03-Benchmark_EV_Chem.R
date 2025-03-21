@@ -1,5 +1,5 @@
 # Load and pre-process EV Chemistry demand forecast
-# Data comes from Benchmark Mineral Intelligence
+# Data comes from Benchmark Mineral Intelligence 2023
 # PBH September 2023
 
 # Libraries
@@ -8,7 +8,7 @@ source("Scripts/01-CommonVariables.R", encoding = "UTF-8")
 
 
 # Load data --------------
-# Bencharmkar data - Not possible to share
+# Bencharmkar data - Not possible to share raw data
 df <- read_excel("Data/Demand Model/Lithium-ion-Battery-Database-Q2-2023-1.xlsx",
                   sheet="EV - Demand",range="C46:AE57")
 names(df) <- c("chemistry","type","Unit",2015:2040)
@@ -54,7 +54,6 @@ evVol <- read.csv("Parameters/Battery/battery_world.csv")
 
 evVol %>% filter(Powertrain=="BEV") %>% 
   mutate(x=1) %>% 
-  # filter(chemistry %in% chems) %>% 
   ggplot(aes(x,y=share_units,fill=chemistry))+
   geom_col()+
   scale_fill_viridis_d(option = "turbo")+
@@ -125,7 +124,6 @@ for (y in 2051:2070) {
   df_aux <- df_aux %>% mutate(year=y)
   df_ext <- rbind(df_ext,df_aux)
 }
-
 
 ## Project EV volumes 2022 using benchmark forecast -----
 # get proportional increase relative to 2022 for Benchmark 

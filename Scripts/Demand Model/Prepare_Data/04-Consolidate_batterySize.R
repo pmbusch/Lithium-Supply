@@ -61,7 +61,6 @@ bat <- bat %>%
   left_join(bat_ldv) %>%  # add region
   mutate(Year=NULL) # for all years use the same battery size (FOR NOW)
 
-
 # get NA terms - countries that we will use  by region
 bat_ldv_na <- bat %>% filter(is.na(kwh_veh_total)) %>% 
   dplyr::select(Region,Country,Powertrain)
@@ -242,6 +241,5 @@ bat_rest2 <- bat_2050_others %>%
 # Save ldv and rest separately
 write.csv(bat_ldv,sprintf(url_save,"bat_size_chem_ldv"),row.names = F)
 write.csv(bat_rest2,sprintf(url_save,"bat_size_chem_rest"),row.names = F)
-
 
 # EoF

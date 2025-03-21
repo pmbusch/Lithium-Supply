@@ -1,11 +1,15 @@
 # Extend the ICCT Forecast up to 2070
 # Extension purpose is to avoid horizon effect in supply model
+# Data comes from Roadmap model v2.2
+# https://theicct.github.io/roadmap-doc/versions/v2.2/
+# Data requested on August 2023
+# SI Figure 
 # PBH April 2024
 
 source("Scripts/00-Libraries.R", encoding = "UTF-8")
 source("Scripts/01-CommonVariables.R", encoding = "UTF-8")
 
-# Data from ICCT Roadmap Model v2.2 - Not available to share
+# Data from ICCT Roadmap Model v2.2 - Not available to share Raw Data
 icct <- readxl::read_excel("Data/Demand Model/ICCT_Country_Sales_Data.xlsx",sheet="Sales_data")
 (names(icct) <- names(icct) %>% str_replace_all(" ","_") %>%  # correct names
   str_remove_all("\\(|\\)") %>% str_remove("_group") %>% 
@@ -21,6 +25,7 @@ icct %>%
   reframe(Sales=sum(Sales)/1e6) %>% 
   pivot_wider(names_from = Powertrain, values_from = Sales)
 
+# TS Figure
 icct %>% 
   filter(Scenario=="Ambitious",Powertrain=="BEV",Vehicle=="Car") %>% 
   mutate(Region=factor(Region,levels=region_level)) %>% 
@@ -34,8 +39,6 @@ icct %>%
   scale_fill_manual(values = region_colors)+
   scale_x_continuous(breaks = c(2022, 2030, 2040, 2050))+
   theme(panel.spacing.x = unit(2, "cm"))
-
-
 
 # avg last 5 years
 avg_5 <- icct %>% 
@@ -111,12 +114,32 @@ df %>%
         legend.key.height= unit(0.25, 'cm'),
         legend.key.width= unit(0.25, 'cm'))
 
-f.fig.save("Figures/ICCT/Demand_extension.png")
-
-
 # SAVE RESULTS
 write.csv(df,"Parameters/Demand Intermediate Results/ICCT_demand.csv",row.names = F)
 
+# Figure ----
 
+veh_levels <- c("Two/Three Wheelers","Car","Van","Bus","Medium truck","Heavy truck")
+# Fig. S11. BEV Sales forecast by vehicle type from 2022 to 2050 for the Ambitious Scenario
+df %>% 
+  filter(Year<2051) %>% 
+  filter(Scenario=="Ambitious",Powertrain=="BEV") %>% 
+  mutate(Region=factor(Region,levels=region_level)) %>% 
+  mutate(Vehicle=factor(Vehicle,levels=veh_levels)) %>% 
+  group_by(Year,Powertrain,Region,Vehicle) %>% 
+  reframe(Sales=sum(Sales)/1e6) %>% ungroup() %>% 
+  ggplot(aes(Year, Sales, fill = fct_rev(Region))) +
+  geom_area() +
+  facet_wrap(~Vehicle,scales="free_y")+
+  labs(y="Sales \n [millions]",x="",fill="Region")+  
+  coord_cartesian(expand=F)+
+  scale_fill_manual(values = region_colors) +
+  scale_x_continuous(breaks = c(2022, 2030, 2040, 2050))+
+  theme(panel.spacing.x = unit(0.2, "cm"),
+        legend.text = element_text(size=6),
+        legend.key.height= unit(0.25, 'cm'),
+        legend.key.width= unit(0.25, 'cm'))
+
+f.fig.save("Figures/Demand/ICCT.png")
 
 # EoF

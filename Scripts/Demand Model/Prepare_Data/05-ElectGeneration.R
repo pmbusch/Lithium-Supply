@@ -1,7 +1,8 @@
-# Electricty Generation data. Used to dissagregate SPS
+# Electricty Generation data. Used to dissagregate SPS (grid storage) to country level
 # Source: https://ourworldindata.org/grapher/electricity-generation
 # PBH Sept. 2023
 
+# Code is run from other script, so this Scripts are already loaded. 
 # source("Scripts/00-Libraries.R", encoding = "UTF-8")
 # source("Scripts/01-CommonVariables.R", encoding = "UTF-8")
 

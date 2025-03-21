@@ -1,9 +1,9 @@
 # Battery Capacity Analysis
-# Source of Data: EV Volumes
+# Source of Data: EV Volumes 2022
 # Battery-Installation-Tracker-December-2022-tge-1.xlsx
 # PBH August 2023
-# Similar to MONET, but with different objectives
-# MONET: https://journals.sagepub.com/doi/full/10.1177/03611981241244797
+# Similar to MONET article, but with different objectives
+# MONET Article: https://journals.sagepub.com/doi/full/10.1177/03611981241244797
 
 # 2 parts separated: Battery Size and Chemistry Share
 
@@ -14,7 +14,7 @@ source("Scripts/01-CommonVariables.R", encoding = "UTF-8")
 
 fig_name <- "Figures/Battery/%s.png"
 
-# EV Volumes data - Not possible to Share
+# EV Volumes data - Not possible to Share Raw Data
 bat <- read_excel("Data/Demand Model/EV Volumes_DB Battery.xlsx",sheet="Database")
 (names(bat) <- names(bat) %>% str_remove("&") %>% str_replace_all(" |-","_") %>% 
     str_replace_all("__","_") %>% str_remove("Delivered_"))
@@ -46,15 +46,14 @@ bat %>% mutate(x=1) %>% dplyr::select(x,`2011`,`2012`,`2013`,`2014`,`2015`,
   
 # DATA WRANGLING -----
 
-## Fix error of regions - Some countries are wrongly labelled
+## Fix error of regions - Some countries are wrongly labelled in different regions
 # which countries are labelled twice?
 bat %>% group_by(Sales_Region,Sales_Sub_Region,Sales_Country) %>% tally() %>% 
   group_by(Sales_Country) %>% tally() %>% arrange(desc(n))
 # Only Colombia it seems
 bat %>% filter(Sales_Country=="Colombia") %>% pull(Sales_Region) %>% table()
 bat %>% filter(Sales_Country=="Colombia") %>% pull(Sales_Sub_Region) %>% table()
-bat <- bat %>% 
-  mutate(Sales_Region=if_else(Sales_Country=="Colombia","Americas",Sales_Region))
+bat <- bat %>% mutate(Sales_Region=if_else(Sales_Country=="Colombia","Americas",Sales_Region))
 
 
 ## Aggregate Chemistry 2022-----
@@ -78,16 +77,12 @@ bat <- bat %>%
     str_detect(Cathode_Mix,"NMCA 89:04:04:03") ~ "A 89:4:4:3",
     T ~ ""))
 bat %>% group_by(Cathode_Chemistry,Cathode_Mix,mix) %>% tally() %>% arrange(desc(n))
-
-bat <- bat %>% 
-  mutate(chemistry=paste0(Cathode_Chemistry,mix))
+bat <- bat %>% mutate(chemistry=paste0(Cathode_Chemistry,mix))
 
 # share of ratios of NMC
 bat %>% 
   filter(chemistry %in% c("NMC","NMC 111","NMC 811","NMC 622","NMC 532")) %>% 
-                          # "NMC 721","NMCA 89:4:4:3","NMC 442")) %>% 
   filter(Propulsion!="FCEV") %>% 
-  # mutate(Sales_Region="World") %>%
   group_by(Propulsion,Sales_Region,chemistry) %>% 
   summarise(MWh_2021=sum(MWh_2021)) %>% ungroup() %>% 
   group_by(Propulsion,Sales_Region) %>% 
@@ -101,13 +96,10 @@ bat %>%
 # Do not distinguish by propulsion, BEV is dominant
 nmc_share <- bat %>% 
   filter(chemistry %in% c("NMC 111","NMC 811","NMC 622","NMC 532")) %>%
-  #   "NMC 721","NMCA 89:4:4:3" not considered to go towards NMC with no detail
   filter(Propulsion!="FCEV") %>% 
   group_by(chemistry) %>% 
   summarise(MWh_2021=sum(MWh_2021)) %>% ungroup() %>% 
-  # group_by(Propulsion) %>% 
   mutate(perc=MWh_2021/sum(MWh_2021)) 
-
 
 # aggregate chemistry - above 2% (for figure)
 chem_selected <- bat %>% group_by(chemistry) %>% summarise(x=sum(MWh_2022,na.rm=T)) %>%
@@ -123,7 +115,6 @@ other_share <- bat %>%
   filter(Propulsion!="FCEV") %>% 
   group_by(chemistry) %>% 
   summarise(MWh_2021=sum(MWh_2021)) %>% ungroup() %>% 
-  # group_by(Propulsion) %>% 
   mutate(perc=MWh_2021/sum(MWh_2021)) 
 
 write.csv(nmc_share,"Parameters/Battery/NMC_share.csv",row.names = F)
@@ -227,7 +218,6 @@ eq_region$EVV_Region <- NULL
 bat_region <- bat %>% left_join(eq_region,by=c("Sales_Sub_Region"="EVV_SubRegion"))
 
 bat_region <- bat_region %>% 
-  # filter(year==2022) %>% 
   filter(!is.na(ICCT_Region)) %>% 
   group_by(Propulsion,year,ICCT_Region,chemistry) %>% 
   summarise(MWh=sum(MWh,na.rm=T),
@@ -260,7 +250,7 @@ eq <- read_excel("Data/Joins/Eq_Countries_ICCT_EVV.xlsx",sheet="Eq_Country2")
 bat_country <- bat %>% left_join(eq,by=c("Sales_Country"="EVV_Country")) %>% 
   filter(!is.na(ICCT_Country))
 
-# historical EV sales for stock model
+# historical EV sales for stock model - EV Volumes
 ev_historical <- bat_country %>% 
   filter(year>2014) %>% 
   group_by(Propulsion,year,ICCT_Country,chemistry) %>% 

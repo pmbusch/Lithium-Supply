@@ -4,4 +4,4 @@
 
 All scripts are numbered in order suggested to run to replicate full results. 
 
-Mostly scripts create data to store in the folder Parameters, that is latter used for the Mineral Demand Model.
+Scripts usually load raw data to stored it in a processed format in the main folder 'Parameters'. The processed data inputs are latter used for the Mineral Demand Model.

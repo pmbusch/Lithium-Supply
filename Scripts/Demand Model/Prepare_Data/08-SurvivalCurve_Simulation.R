@@ -15,12 +15,6 @@ source("Scripts/01-CommonVariables.R", encoding = "UTF-8")
 f.getOutflows <- function(n_veh=1,EV_age,LIB_age, maxEV_age=30, maxLIB_age=30,
                           dist.Age="Logistic"){
   
-  # get probability of failure based on CDF of Normal
-  # EV
-  # y1 = pnorm(EV_age+1, mean = mean_ev, sd = sd_ev)-pnorm(EV_age, mean = mean_ev, sd = sd_ev) 
-  # # LIB
-  # y2 = pnorm(LIB_age+1, mean = mean_lib, sd = sd_lib)-pnorm(LIB_age, mean = mean_lib, sd = sd_lib)
-  
   # option 2: get fraction year to year of survival, based on CDF ratios
   # represent proportion that survives year to year
   
@@ -57,8 +51,6 @@ f.getOutflows <- function(n_veh=1,EV_age,LIB_age, maxEV_age=30, maxLIB_age=30,
   
   return(ret)
 }
-
-
 
 # Cohort Outflows --------------
 
@@ -100,18 +92,13 @@ dict_regions <- icct %>% group_by(Region,Country) %>% tally() %>% mutate(n=NULL)
 # Historical EV sales for stock
 EV_historical <- read.csv("Parameters/Demand Intermediate Results/historicalEV_sales.csv")
 
-# Whole world
-# icct <- icct %>% 
-#   filter(Powertrain %in% c("BEV","PHEV")) %>% 
-#   group_by(Vehicle, Powertrain,Year,Scenario) %>% summarise(Sales=sum(Sales))
-
-## regional
+## regional survival curves
 icct <- icct %>% 
   filter(Powertrain %in% c("BEV","PHEV")) %>% 
   group_by(Region,Vehicle, Powertrain,Year,Scenario) %>% summarise(Sales=sum(Sales))
 
 
-# add historical
+# add historical sales
 EV_historical <- EV_historical %>% rename(Year=year) %>% 
   filter(Year<2022) %>% 
   left_join(dict_regions,by=c("ICCT_Country"="Country")) %>% 
@@ -125,12 +112,11 @@ EV_historical <- EV_historical %>% rename(Year=year) %>%
 scenarios <- c("Ambitious")
 (vehicles <- icct$Vehicle %>% unique())
 (powers <- icct$Powertrain %>% unique())
-(lifetime <- life_param$scen_lifetime %>% unique())
-# lifetime <- c("Baseline") # run faster
+# (lifetime <- life_param$scen_lifetime %>% unique())
+lifetime <- c("Baseline") # run faster, and all scenarios use the same lifetime
 (regions <- icct$Region %>% unique())
 icct_orig <- icct
 icct_new <- c()
-# max_reuse_lib <- 0 # no LIB reuse case
 
 for (reg in regions){
   for (veh in vehicles){
@@ -313,7 +299,6 @@ for (reg in regions){
 icct <- icct_new
 
 
-
 ## save stats as World or region-----
 # all as percentage of that year sales
 icct <- icct %>% 
@@ -329,48 +314,16 @@ icct <- icct %>%
   rowwise() %>%
   mutate_if(is.list, ~paste(unlist(.), collapse = '|')) 
 
-# write.csv(icct,"Parameters/Demand Intermediate Results/world_outflows_LIB.csv",row.names = F)
 write.csv(icct,"Parameters/Demand Intermediate Results/region_outflows_LIB.csv",row.names = F)
 
 
-## some analysis stats ----
-
-icct_ev <- icct %>%  
-  filter(scen_lifetime=="Baseline") %>% 
-  filter(Powertrain=="BEV") %>% 
-  filter(Scenario=="Ambitious") %>% 
-  # filter(Year<2051) %>% 
-  filter(Vehicle=="Car") 
-
-icct_ev %>% group_by(Region) %>% 
-  reframe(x=(sum(Sales)+sum(add_LIB))/sum(Sales)-1) # 27% more
-
-  
-
-# battery needs cumulative
-sum(icct_ev$Sales)/1e6 # 4329M veh. equivalent 
-(sum(icct_ev$Sales)+sum(icct_ev$add_LIB))/1e6 # 5530M
-(sum(icct_ev$Sales)+sum(icct_ev$add_LIB))/sum(icct_ev$Sales)-1 # 27% more
-sum(icct_ev$add_LIB)/1e6 # 1200M ADDITIONAL
-sum(icct_ev$LIB_reuse_EV)/1e6 # 663M were used for reuse
-sum(icct_ev$LIB_Available)/1e6 # 1513M
-sum(icct_ev$LIB_recycling)/1e6 # 1994M for recycling
-
-# 2050 YEAR
-icct_ev$Sales[29]/1e6 # 95M veh. equivalent 
-(icct_ev$Sales[29]+icct_ev$add_LIB[29])/1e6 # 117M
-(icct_ev$Sales[29]+icct_ev$add_LIB[29])/icct_ev$Sales[29]-1 # 24% more
-icct_ev$add_LIB[29]/1e6 # 22M ADDITIONAL
-icct_ev$LIB_reuse_EV[29]/1e6 # 7M were used for reuse
-icct_ev$LIB_Available[29]/1e6 # 17M
-icct_ev$LIB_recycling[29]/1e6 # 30M
-
 # figures
+theme_set(theme_bw(8)+ theme(panel.grid = element_blank()))
 head(icct)
 data_fig <- icct %>%
   filter(Year>2021) %>% 
   filter(scen_lifetime=="Baseline") %>% 
-  dplyr::select(-EV_Stock,-add_LIB_vector,-LIB_Available_vector,
+  dplyr::select(-EV_Stock,-add_LIB_vector,-LIB_Available_vector,-EV_Stock_vector,
                 -LIB_recycling_vector,-scen_lifetime,
                 -perc_add_lib,-perc_lib_reuse_ev,
                 -perc_lib_available,-perc_lib_recycling) %>% 
@@ -391,7 +344,7 @@ data_fig2 %>%
   geom_text(data=filter(data_fig2,Year==2070),x=2072,aes(label=key),
             # nudge_y = c(0,5,-5,2,18),
             lineheight = 0.8,
-            size=11*5/14 * 0.8)+
+            size=6*5/14 * 0.8)+
   facet_wrap(~Region,scales = "free_y")+
   labs(x="",y="Units, in millions",col="")+
   theme(legend.position = "none")+
@@ -399,23 +352,8 @@ data_fig2 %>%
   scale_x_continuous(breaks = c(2022, seq(2030, 2070, 10)), 
                      labels = c("2022", "2030", "2040", "2050","2060","2070"))
 
-# f.fig.save("Figures/Reuse_Battery/World_outflows_0reuse.png")
-f.fig.save("Figures/Reuse_Battery/World_outflows.png")
+f.fig.save("Figures/Demand/World_outflows.png")
 
-# All vehicles
-data_fig2 <- data_fig %>% filter(Powertrain=="BEV")
-
-data_fig2 %>%  
-  ggplot(aes(Year,value,col=key,group=key))+
-  geom_line(linewidth=1)+
-  facet_wrap(~Vehicle,scales = "free_y")+
-  labs(x="",y="Units, in millions",col="Flow",caption="Different scales per panel.")+
-  coord_cartesian(xlim=c(2022,2050))+
-  guides(col= guide_legend(reverse = TRUE))+
-  scale_x_continuous(breaks = c(2022, 2030, 2040, 2050), 
-                     labels = c("2022", "2030", "2040", "2050"))
-
-f.fig.save("Figures/Reuse_Battery/World_outflows_vehs.png")
 
 # stock
 icct %>% 
@@ -426,11 +364,11 @@ icct %>%
   filter(Scenario=="Ambitious") %>%
   ggplot(aes(Year,EV_Stock))+
   geom_line(linewidth=1)+
-  facet_wrap(~Vehicle)+
+  facet_grid(Region~Vehicle,scales="free_y")+
   labs(x="",y="",title="EV stock [millions]",col="")+
   scale_x_continuous(breaks = c(2022, 2030, 2040, 2050,2060,2070), 
                      labels = c("2022", "2030", "2040", "2050","2060","2070"))
-f.fig.save("Figures/Reuse_Battery/World_EVStock.png",w=8.7)
+# f.fig.save("Figures/Reuse_Battery/World_EVStock.png",w=8.7)
 
 # Battery failure as percentage of stock
 icct %>% 
@@ -443,11 +381,13 @@ icct %>%
   filter(Scenario=="Ambitious") %>%
   ggplot(aes(Year,EV_Stock))+
   geom_line(linewidth=1)+
-  facet_wrap(~Vehicle)+
+  facet_grid(Region~Vehicle)+
   labs(x="",y="",title="Battery failure as % of EV Stock",col="")+
   scale_x_continuous(breaks = c(2022, 2030, 2040, 2050), 
                      labels = c("2022", "2030", "2040", "2050"))+
-  scale_y_continuous(labels = scales::percent)
-f.fig.save("Figures/Reuse_Battery/World_BatFailure.png",w=8.7)
+  scale_y_continuous(labels = scales::percent)+
+  theme_bw(8)+
+  theme(panel.grid = element_blank())
+# f.fig.save("Figures/Reuse_Battery/World_BatFailure.png",w=8.7)
 
 # EoF

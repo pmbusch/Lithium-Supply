@@ -10,7 +10,7 @@ source("Scripts/01-CommonVariables.R", encoding = "UTF-8")
 # Load data --------------
 # in MWh
 # Both: Grid Level Storage and Behind the Meter Storage included
-# Benchmark data- NOT SHARE
+# Benchmark data- Not possible to share raw data
 ess <- read_excel("Data/Demand Model/Lithium-ion-Battery-Database-Q2-2023-1.xlsx",
                   sheet="ESS - Demand",range="C17:AD28")
 names(ess) <- c("chemistry","Unit",2015:2040)
@@ -79,7 +79,6 @@ ess <- ess %>% rename(Year=year) %>%
 ess$Year %>% range()
 
 
-
 # Dissagregate based on Generation Share of 2022 ----
 source("Scripts/Demand Model/Prepare_Data/05-ElectGeneration.R", encoding = "UTF-8")
 
@@ -117,8 +116,8 @@ ess_fig %>%
   labs(x="",y="MWh",fill="Battery Chemistry",caption = "2040-2050 projection based on 2030-2040 avg. growth")+
   guides(alpha = FALSE)
 
-f.fig.save("Figures/SPS/SPS.png")
-# f.fig.save("Figures/SPS/SPS2070.png")
+f.fig.save("Figures/Demand/SSPS.png")
+# f.fig.save("Figures/SPS/SSPS2070.png")
 
 # by region
 ess_fig <- ess %>% 
@@ -129,7 +128,6 @@ ess_fig <- ess %>%
   filter(Year<2051) %>% 
   mutate(ICCT_Region=factor(ICCT_Region,levels=region_level))
   
-
 ess_fig %>% 
   ggplot(aes(Year,stationaryPower,fill=ICCT_Region))+
   geom_area(aes(alpha=proj))+
@@ -141,14 +139,13 @@ ess_fig %>%
   labs(x="",y="MWh",fill="Battery Chemistry",caption = "2040-2050 projection based on 2030-2040 avg. growth")+
   guides(alpha = FALSE)
 
-f.fig.save("Figures/SPS/SPS_region.png")
+# f.fig.save("Figures/SPS/SPS_region.png")
 
 # Scenario Sodium Battery adoption -----
 # Half of LFP goes towards Sodium based battery
 # Electrolyte based on sodium: NaPF6
 # Cathode active material: NaCu(1/3)Fe(1/3)Mn(1/3)O2
 # Anode:	Hard Carbon
-
 
 # Start at 2030, reach half of share by 2040, then half for rest of period
 share_difussion <- tibble(Year=2022:2070,
@@ -193,7 +190,6 @@ ess_fig %>%
   labs(x="",y="MWh",fill="Battery Chemistry",caption = "2040-2050 projection based on 2030-2040 avg. growth")+
   guides(alpha = FALSE)
 
-f.fig.save("Figures/SPS/Sodium_SPS.png")
-
+f.fig.save("Figures/Demand/Sodium_SSPS.png")
 
 # EoF
