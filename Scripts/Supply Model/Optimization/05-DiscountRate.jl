@@ -10,7 +10,7 @@ using Gurobi
 using LinearAlgebra
 
 # Load built-in optimization function
-# other potential path: Scripts/Supply Model/Julia Optimization/
+# other potential path: Scripts/Supply Model/Optimization/
 include("RunOptimization.jl")
 
 # Load data

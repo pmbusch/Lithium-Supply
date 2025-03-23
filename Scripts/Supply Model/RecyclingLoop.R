@@ -102,7 +102,7 @@ ggplot(data_fig,aes(recyc,mines_open,col=name))+
   # geom_line()+
   geom_point()+
   # geom_smooth(se=F)+
-  coord_cartesian(expand = F,ylim=c(0,90))+
+  coord_cartesian(expand = F,ylim=c(0,95))+
   scale_x_continuous(labels=scales::percent,limits = c(0,1),breaks = seq(0.05,0.95,0.1))+
   scale_color_manual(values = c( "Reference" = "#000000","Large Capacity LIB"="#8B0000",
                                  "Small Capacity LIB"="#56B4E9"))+
@@ -114,7 +114,6 @@ ggplot(data_fig,aes(recyc,mines_open,col=name))+
         legend.key.height= unit(0.25, 'cm'),
         legend.key.width= unit(0.25, 'cm'))
   
-
 ggsave("Figures/Supply/recyclingLoop.png", ggplot2::last_plot(),
        units="cm",dpi=600,
        width=8.7,height=8.7)

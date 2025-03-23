@@ -193,7 +193,9 @@ p1 <- ggplot(data_fig,aes(name_abr,dep_scen))+
        y="",
        fill="Number of \nnew opened \nDeposits")+
   scale_fill_gradient2(low = "#0000FFBB",mid = "#FFFFFFBB",
-                       high = "#FF0000BB",midpoint = ref_value)+ 
+                       high = "#FF0000BB",midpoint = ref_value)+
+  # scale_fill_gradient2(low = "darkblue",mid = "#FFFFFFBB",
+  #                      high = "darkred",midpoint = ref_value)+ 
   scale_linewidth_manual(values = c(thick = 0.5, thin = 0.1)) +
   guides(linewidth="none")+
   theme_minimal(8)+
