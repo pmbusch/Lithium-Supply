@@ -42,12 +42,12 @@
 "demand_unmet",2062,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
 "demand_unmet",2063,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
 "demand_unmet",2064,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
-"demand_unmet",2065,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
-"demand_unmet",2066,6.86102336769177,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
-"demand_unmet",2067,23.7257438053929,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
-"demand_unmet",2068,53.2460111012081,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
-"demand_unmet",2069,91.6516442177628,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
-"demand_unmet",2070,152.909399890624,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
+"demand_unmet",2065,8.64941542367487,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
+"demand_unmet",2066,28.2354499442807,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
+"demand_unmet",2067,62.5265995841407,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
+"demand_unmet",2068,107.037010740681,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
+"demand_unmet",2069,162.409629195191,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
+"demand_unmet",2070,245.901552577133,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 15","Reference",0.15
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
@@ -92,11 +92,11 @@
 "demand_unmet",2063,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
 "demand_unmet",2064,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
 "demand_unmet",2065,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
-"demand_unmet",2066,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
-"demand_unmet",2067,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
-"demand_unmet",2068,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
-"demand_unmet",2069,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
-"demand_unmet",2070,69.8275037807344,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
+"demand_unmet",2066,7.50632595482055,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
+"demand_unmet",2067,25.1840312254314,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
+"demand_unmet",2068,56.8552697139766,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
+"demand_unmet",2069,98.2396429220525,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
+"demand_unmet",2070,158.561894632206,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 25","Reference",0.25
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
@@ -120,10 +120,10 @@
 "demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
 "demand_unmet",2043,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
 "demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
-"demand_unmet",2045,7.45660446624713,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
-"demand_unmet",2046,8.19394079950391,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
-"demand_unmet",2047,8.12495335127957,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
-"demand_unmet",2048,3.69977163062178,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
+"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
+"demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
+"demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
+"demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
 "demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
 "demand_unmet",2051,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
@@ -144,8 +144,8 @@
 "demand_unmet",2066,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
 "demand_unmet",2067,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
 "demand_unmet",2068,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
-"demand_unmet",2069,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
-"demand_unmet",2070,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
+"demand_unmet",2069,0.653113970678216,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
+"demand_unmet",2070,79.5548690626147,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 35","Reference",0.35
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
@@ -168,11 +168,11 @@
 "demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
 "demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
 "demand_unmet",2043,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
-"demand_unmet",2044,5.25627241398367,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
-"demand_unmet",2045,15.0298106468377,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
-"demand_unmet",2046,17.6600520772666,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
-"demand_unmet",2047,7.47102610202578,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
-"demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
+"demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
+"demand_unmet",2045,5.32730762921127,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
+"demand_unmet",2046,5.82138933286273,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
+"demand_unmet",2047,4.67701955336111,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
+"demand_unmet",2048,3.06055925019763,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
 "demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
 "demand_unmet",2051,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 45","Reference",0.45
@@ -237,13 +237,13 @@
 "demand_unmet",2061,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
 "demand_unmet",2062,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
 "demand_unmet",2063,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
-"demand_unmet",2064,0.0132736200294801,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
-"demand_unmet",2065,8.37897437830904,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
-"demand_unmet",2066,27.2872143385759,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
-"demand_unmet",2067,60.373106660292,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
-"demand_unmet",2068,103.099243045297,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
-"demand_unmet",2069,156.039739272472,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
-"demand_unmet",2070,237.736743016403,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
+"demand_unmet",2064,1.84043826430654,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
+"demand_unmet",2065,14.0757108348833,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
+"demand_unmet",2066,38.8050859024762,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
+"demand_unmet",2067,79.6149348357385,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
+"demand_unmet",2068,131.9009603835,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
+"demand_unmet",2069,196.198265807672,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
+"demand_unmet",2070,285.012549973884,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 5","Reference",0.05
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
@@ -265,11 +265,11 @@
 "demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
 "demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
 "demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
-"demand_unmet",2043,2.7524885277032,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
-"demand_unmet",2044,6.43265313065613,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
-"demand_unmet",2045,13.743443012155,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
-"demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
-"demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
+"demand_unmet",2043,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
+"demand_unmet",2044,3.93440335611428,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
+"demand_unmet",2045,14.5854712941686,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
+"demand_unmet",2046,15.882248060839,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
+"demand_unmet",2047,12.2748060661386,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
 "demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 55","Reference",0.55
@@ -313,11 +313,11 @@
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
 "demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
 "demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
-"demand_unmet",2042,2.36510113401715,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
-"demand_unmet",2043,7.0753103351106,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
-"demand_unmet",2044,7.4175882659535,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
-"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
-"demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
+"demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
+"demand_unmet",2043,0.870954175588189,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
+"demand_unmet",2044,6.97741816811647,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
+"demand_unmet",2045,15.547892045201,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
+"demand_unmet",2046,11.533760879115,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
 "demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 65","Reference",0.65
@@ -360,12 +360,12 @@
 "demand_unmet",2037,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
 "demand_unmet",2038,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
-"demand_unmet",2040,6.50514249133458,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
-"demand_unmet",2041,10.8891616213391,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
-"demand_unmet",2042,14.2376147026697,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
-"demand_unmet",2043,13.8428082108298,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
-"demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
-"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
+"demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
+"demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
+"demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
+"demand_unmet",2043,1.95288718866372,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
+"demand_unmet",2044,3.47357607683739,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
+"demand_unmet",2045,6.38905926095667,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
 "demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
 "demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 75","Reference",0.75
@@ -409,12 +409,12 @@
 "demand_unmet",2037,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
 "demand_unmet",2038,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
-"demand_unmet",2040,10.6206402541576,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
-"demand_unmet",2041,16.5404348246049,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
-"demand_unmet",2042,18.5107901516182,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
-"demand_unmet",2043,13.5328377062912,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
-"demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
-"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
+"demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
+"demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
+"demand_unmet",2042,1.05948016764074,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
+"demand_unmet",2043,3.35267152284155,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
+"demand_unmet",2044,6.45694636175493,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
+"demand_unmet",2045,3.80620843763116,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
 "demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
 "demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 85","Reference",0.85
@@ -458,12 +458,12 @@
 "demand_unmet",2037,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
 "demand_unmet",2038,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
-"demand_unmet",2040,10.6206402541576,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
-"demand_unmet",2041,16.5404348246049,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
-"demand_unmet",2042,18.5107901516182,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
-"demand_unmet",2043,13.5328377062912,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
-"demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
-"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
+"demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
+"demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
+"demand_unmet",2042,1.05948016764074,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
+"demand_unmet",2043,3.35267152284155,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
+"demand_unmet",2044,6.45694636175493,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
+"demand_unmet",2045,3.80620843763116,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
 "demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
 "demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Baseline-Baseline-Recycling percentage 95","Reference",0.95
@@ -531,13 +531,13 @@
 "demand_unmet",2061,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
 "demand_unmet",2062,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
 "demand_unmet",2063,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
-"demand_unmet",2064,5.73983706484472,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
-"demand_unmet",2065,19.9588081581004,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
-"demand_unmet",2066,50.4163891735121,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
-"demand_unmet",2067,91.1642299985053,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
-"demand_unmet",2068,143.255886324747,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
-"demand_unmet",2069,224.678868717152,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
-"demand_unmet",2070,1480.7822971807,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
+"demand_unmet",2064,11.3203849549937,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
+"demand_unmet",2065,36.4867543640186,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
+"demand_unmet",2066,79.2939457961287,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
+"demand_unmet",2067,135.453629254719,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
+"demand_unmet",2068,205.891950629822,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
+"demand_unmet",2069,296.63393403211,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
+"demand_unmet",2070,1601.24490017351,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 15","Large Capacity LIB",0.15
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
@@ -561,10 +561,10 @@
 "demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
 "demand_unmet",2043,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
 "demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
-"demand_unmet",2045,1.59727251524477,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
-"demand_unmet",2046,0.476728662279342,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
+"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
+"demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
 "demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
-"demand_unmet",2048,1.13724357479056,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
+"demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
 "demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
 "demand_unmet",2051,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
@@ -580,13 +580,13 @@
 "demand_unmet",2061,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
 "demand_unmet",2062,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
 "demand_unmet",2063,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
-"demand_unmet",2064,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
-"demand_unmet",2065,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
-"demand_unmet",2066,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
-"demand_unmet",2067,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
-"demand_unmet",2068,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
-"demand_unmet",2069,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
-"demand_unmet",2070,1544.90397215328,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
+"demand_unmet",2064,6.7057244719638,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
+"demand_unmet",2065,22.9384680782777,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
+"demand_unmet",2066,56.3037481054178,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
+"demand_unmet",2067,100.9729307119,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
+"demand_unmet",2068,158.062301657771,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
+"demand_unmet",2069,242.191785152261,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
+"demand_unmet",2070,1471.11718014032,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 25","Large Capacity LIB",0.25
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
@@ -609,13 +609,13 @@
 "demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
 "demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
 "demand_unmet",2043,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
-"demand_unmet",2044,7.01377312962033,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
-"demand_unmet",2045,24.9625111184302,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
-"demand_unmet",2046,31.6185285423279,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
-"demand_unmet",2047,31.5223594814435,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
-"demand_unmet",2048,17.2725419886297,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
-"demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
-"demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
+"demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
+"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
+"demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
+"demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
+"demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
+"demand_unmet",2049,2.69377389804906,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
+"demand_unmet",2050,5.20467712429908,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
 "demand_unmet",2051,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
 "demand_unmet",2052,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
 "demand_unmet",2053,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
@@ -634,8 +634,8 @@
 "demand_unmet",2066,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
 "demand_unmet",2067,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
 "demand_unmet",2068,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
-"demand_unmet",2069,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
-"demand_unmet",2070,808.923666415864,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
+"demand_unmet",2069,18.3833022116707,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
+"demand_unmet",2070,1666.57528947422,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 35","Large Capacity LIB",0.35
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
@@ -657,12 +657,12 @@
 "demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
 "demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
 "demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
-"demand_unmet",2043,5.51196507419318,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
-"demand_unmet",2044,16.9095733529059,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
-"demand_unmet",2045,31.126882531165,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
-"demand_unmet",2046,26.7673183218414,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
-"demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
-"demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
+"demand_unmet",2043,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
+"demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
+"demand_unmet",2045,13.4544372702548,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
+"demand_unmet",2046,19.6273930757487,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
+"demand_unmet",2047,22.6283526447396,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
+"demand_unmet",2048,17.0863518392897,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
 "demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
 "demand_unmet",2051,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
@@ -684,7 +684,7 @@
 "demand_unmet",2067,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
 "demand_unmet",2068,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
 "demand_unmet",2069,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
-"demand_unmet",2070,341.522980059512,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
+"demand_unmet",2070,1131.17567277022,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 45","Large Capacity LIB",0.45
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
@@ -726,14 +726,14 @@
 "demand_unmet",2060,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
 "demand_unmet",2061,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
 "demand_unmet",2062,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
-"demand_unmet",2063,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
-"demand_unmet",2064,10.8857908012006,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
-"demand_unmet",2065,35.0566096385164,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
-"demand_unmet",2066,76.1790574300136,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
-"demand_unmet",2067,129.929682083281,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
-"demand_unmet",2068,197.149532033919,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
-"demand_unmet",2069,284.447469335503,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
-"demand_unmet",2070,1616.11560850013,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
+"demand_unmet",2063,2.38755882599878,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
+"demand_unmet",2064,18.9510166289078,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
+"demand_unmet",2065,51.9202777444012,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
+"demand_unmet",2066,104.797792946355,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
+"demand_unmet",2067,173.076389621939,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
+"demand_unmet",2068,257.492073791147,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
+"demand_unmet",2069,358.862602272455,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
+"demand_unmet",2070,1896.32935588797,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 5","Large Capacity LIB",0.05
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
@@ -754,12 +754,12 @@
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
 "demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
 "demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
-"demand_unmet",2042,4.18408120642437,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
-"demand_unmet",2043,12.2417647870986,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
-"demand_unmet",2044,18.7061018165199,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
-"demand_unmet",2045,21.1656271598703,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
-"demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
-"demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
+"demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
+"demand_unmet",2043,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
+"demand_unmet",2044,9.785836202768,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
+"demand_unmet",2045,28.7034490122458,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
+"demand_unmet",2046,36.3929021239527,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
+"demand_unmet",2047,28.371598673897,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
 "demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
@@ -782,7 +782,7 @@
 "demand_unmet",2067,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
 "demand_unmet",2068,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
 "demand_unmet",2069,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
-"demand_unmet",2070,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
+"demand_unmet",2070,608.124805290145,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 55","Large Capacity LIB",0.55
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
@@ -802,12 +802,12 @@
 "demand_unmet",2038,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
 "demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
-"demand_unmet",2041,0.848632536812357,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
-"demand_unmet",2042,5.15478153170472,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
-"demand_unmet",2043,6.68507333802197,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
-"demand_unmet",2044,0.329184761570172,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
-"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
-"demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
+"demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
+"demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
+"demand_unmet",2043,7.08747709015744,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
+"demand_unmet",2044,19.4121330331751,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
+"demand_unmet",2045,34.6066077828826,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
+"demand_unmet",2046,28.4375120043861,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
 "demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
@@ -831,7 +831,7 @@
 "demand_unmet",2067,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
 "demand_unmet",2068,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
 "demand_unmet",2069,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
-"demand_unmet",2070,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
+"demand_unmet",2070,56.5410683047856,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 65","Large Capacity LIB",0.65
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
@@ -850,12 +850,12 @@
 "demand_unmet",2037,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
 "demand_unmet",2038,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
-"demand_unmet",2040,3.03062273499087,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
-"demand_unmet",2041,6.89188030621182,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
-"demand_unmet",2042,8.31750567649956,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
-"demand_unmet",2043,1.39937476985588,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
-"demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
-"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
+"demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
+"demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
+"demand_unmet",2042,1.20426835618633,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
+"demand_unmet",2043,8.91267791895233,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
+"demand_unmet",2044,15.762254417304,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
+"demand_unmet",2045,19.6665644579938,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
 "demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
 "demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 75","Large Capacity LIB",0.75
@@ -899,12 +899,12 @@
 "demand_unmet",2037,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
 "demand_unmet",2038,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
-"demand_unmet",2040,8.28891229526949,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
-"demand_unmet",2041,13.9673510122592,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
-"demand_unmet",2042,13.317239331425,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
-"demand_unmet",2043,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
-"demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
-"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
+"demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
+"demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
+"demand_unmet",2042,2.60435856482301,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
+"demand_unmet",2043,8.14775281490645,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
+"demand_unmet",2044,9.47551542665574,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
+"demand_unmet",2045,2.93216785169456,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
 "demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
 "demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 85","Large Capacity LIB",0.85
@@ -948,12 +948,12 @@
 "demand_unmet",2037,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
 "demand_unmet",2038,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
-"demand_unmet",2040,8.28891229526949,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
-"demand_unmet",2041,13.9673510122592,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
-"demand_unmet",2042,13.317239331425,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
-"demand_unmet",2043,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
-"demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
-"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
+"demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
+"demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
+"demand_unmet",2042,2.60435856482301,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
+"demand_unmet",2043,8.14775281490645,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
+"demand_unmet",2044,9.47551542665574,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
+"demand_unmet",2045,2.93216785169456,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
 "demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
 "demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-High Capacity-Baseline-Recycling percentage 95","Large Capacity LIB",0.95
@@ -1022,12 +1022,12 @@
 "demand_unmet",2062,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
 "demand_unmet",2063,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
 "demand_unmet",2064,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
-"demand_unmet",2065,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
-"demand_unmet",2066,1.16862177628386,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
-"demand_unmet",2067,8.15254673503802,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
-"demand_unmet",2068,26.1962289112665,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
-"demand_unmet",2069,53.3951412965356,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
-"demand_unmet",2070,149.827006967895,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
+"demand_unmet",2065,4.60309777786277,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
+"demand_unmet",2066,16.3834381141362,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
+"demand_unmet",2067,42.3458484799135,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
+"demand_unmet",2068,76.7636501522022,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
+"demand_unmet",2069,119.800292318431,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
+"demand_unmet",2070,191.839413897164,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 15","Small Capacity LIB",0.15
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
@@ -1072,11 +1072,11 @@
 "demand_unmet",2063,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
 "demand_unmet",2064,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
 "demand_unmet",2065,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
-"demand_unmet",2066,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
-"demand_unmet",2067,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
-"demand_unmet",2068,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
-"demand_unmet",2069,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
-"demand_unmet",2070,63.1364695101662,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
+"demand_unmet",2066,3.80005624474126,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
+"demand_unmet",2067,14.1809150511926,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
+"demand_unmet",2068,38.3456586120758,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
+"demand_unmet",2069,70.6554924300123,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
+"demand_unmet",2070,153.970546192672,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 25","Small Capacity LIB",0.25
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
@@ -1100,7 +1100,7 @@
 "demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
 "demand_unmet",2043,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
 "demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
-"demand_unmet",2045,1.6002556373642,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
+"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
 "demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
 "demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
@@ -1125,7 +1125,7 @@
 "demand_unmet",2067,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
 "demand_unmet",2068,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
 "demand_unmet",2069,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
-"demand_unmet",2070,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
+"demand_unmet",2070,73.3064728159922,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 35","Small Capacity LIB",0.35
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
@@ -1148,13 +1148,13 @@
 "demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
 "demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
 "demand_unmet",2043,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
-"demand_unmet",2044,2.31291988618689,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
-"demand_unmet",2045,9.17657113143991,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
-"demand_unmet",2046,13.3986171859563,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
-"demand_unmet",2047,10.4341579135198,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
-"demand_unmet",2048,3.99611211345365,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
-"demand_unmet",2049,5.35788279179605,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
-"demand_unmet",2050,1.83888493183958,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
+"demand_unmet",2044,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
+"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
+"demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
+"demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
+"demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
+"demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
+"demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
 "demand_unmet",2051,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
 "demand_unmet",2052,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
 "demand_unmet",2053,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
@@ -1174,7 +1174,7 @@
 "demand_unmet",2067,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
 "demand_unmet",2068,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
 "demand_unmet",2069,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
-"demand_unmet",2070,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
+"demand_unmet",2070,43.3316709559424,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 45","Small Capacity LIB",0.45
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
@@ -1218,12 +1218,12 @@
 "demand_unmet",2062,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
 "demand_unmet",2063,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
 "demand_unmet",2064,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
-"demand_unmet",2065,4.46394937689363,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
-"demand_unmet",2066,15.5608308397175,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
-"demand_unmet",2067,40.6155871189471,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
-"demand_unmet",2068,73.0879842271267,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
-"demand_unmet",2069,117.606752682594,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
-"demand_unmet",2070,186.168337457998,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
+"demand_unmet",2065,4.72910953464682,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
+"demand_unmet",2066,17.7611898926038,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
+"demand_unmet",2067,44.8437612657385,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
+"demand_unmet",2068,82.4273066655405,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
+"demand_unmet",2069,129.462213110223,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
+"demand_unmet",2070,194.482022054286,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 5","Small Capacity LIB",0.05
 "demand_unmet",2022,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
 "demand_unmet",2023,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
 "demand_unmet",2024,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
@@ -1232,7 +1232,7 @@
 "demand_unmet",2027,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
 "demand_unmet",2028,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
 "demand_unmet",2029,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
-"demand_unmet",2030,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
+"demand_unmet",2030,0.794084294454959,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
 "demand_unmet",2031,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
 "demand_unmet",2032,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
 "demand_unmet",2033,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
@@ -1245,12 +1245,12 @@
 "demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
 "demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
 "demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
-"demand_unmet",2043,3.19675088682915,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
-"demand_unmet",2044,9.12211455558195,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
-"demand_unmet",2045,18.8971634933184,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
-"demand_unmet",2046,14.7020371881539,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
-"demand_unmet",2047,17.5936629114054,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
-"demand_unmet",2048,7.51101551767899,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
+"demand_unmet",2043,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
+"demand_unmet",2044,0.726400737636816,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
+"demand_unmet",2045,7.1990370215034,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
+"demand_unmet",2046,8.92834784694853,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
+"demand_unmet",2047,8.50214974990054,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
+"demand_unmet",2048,0.587335476642721,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
 "demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
 "demand_unmet",2051,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 55","Small Capacity LIB",0.55
@@ -1292,14 +1292,14 @@
 "demand_unmet",2038,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
 "demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
-"demand_unmet",2041,1.68890145194953,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
-"demand_unmet",2042,6.18401409421966,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
-"demand_unmet",2043,15.3053768023485,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
-"demand_unmet",2044,19.6450507646365,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
-"demand_unmet",2045,18.6075827593494,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
-"demand_unmet",2046,14.1185359694656,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
-"demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
-"demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
+"demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
+"demand_unmet",2042,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
+"demand_unmet",2043,1.31993646103014,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
+"demand_unmet",2044,5.87127820373442,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
+"demand_unmet",2045,13.9731439769977,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
+"demand_unmet",2046,15.8571704605352,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
+"demand_unmet",2047,6.89874849046771,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
+"demand_unmet",2048,6.14555668967422,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
 "demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
 "demand_unmet",2051,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 65","Small Capacity LIB",0.65
@@ -1340,14 +1340,14 @@
 "demand_unmet",2037,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
 "demand_unmet",2038,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
-"demand_unmet",2040,6.63393386727524,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
-"demand_unmet",2041,12.0214647922146,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
-"demand_unmet",2042,16.8109382718009,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
-"demand_unmet",2043,20.8509003410056,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
-"demand_unmet",2044,15.3047961416104,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
-"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
-"demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
-"demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
+"demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
+"demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
+"demand_unmet",2042,0.600004118398536,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
+"demand_unmet",2043,6.04818236105698,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
+"demand_unmet",2044,13.7167652534121,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
+"demand_unmet",2045,22.988890575009,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
+"demand_unmet",2046,16.8271970311049,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
+"demand_unmet",2047,15.4717111782028,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
 "demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 75","Small Capacity LIB",0.75
@@ -1389,14 +1389,14 @@
 "demand_unmet",2037,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
 "demand_unmet",2038,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
-"demand_unmet",2040,9.5163728965887,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
-"demand_unmet",2041,15.9135703019975,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
-"demand_unmet",2042,19.6054555925163,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
-"demand_unmet",2043,20.2650690862344,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
-"demand_unmet",2044,8.93642754997244,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
-"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
-"demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
-"demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
+"demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
+"demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
+"demand_unmet",2042,2.89270153350183,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
+"demand_unmet",2043,8.76380459013569,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
+"demand_unmet",2044,18.9001233170196,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
+"demand_unmet",2045,24.5781189141907,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
+"demand_unmet",2046,19.1839642799018,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
+"demand_unmet",2047,10.099965888736,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
 "demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 85","Small Capacity LIB",0.85
@@ -1438,14 +1438,14 @@
 "demand_unmet",2037,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
 "demand_unmet",2038,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
 "demand_unmet",2039,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
-"demand_unmet",2040,9.5163728965887,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
-"demand_unmet",2041,15.9135703019975,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
-"demand_unmet",2042,19.6054555925163,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
-"demand_unmet",2043,20.2650690862344,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
-"demand_unmet",2044,8.93642754997244,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
-"demand_unmet",2045,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
-"demand_unmet",2046,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
-"demand_unmet",2047,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
+"demand_unmet",2040,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
+"demand_unmet",2041,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
+"demand_unmet",2042,2.89270153350183,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
+"demand_unmet",2043,8.76380459013569,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
+"demand_unmet",2044,18.9001233170196,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
+"demand_unmet",2045,24.5781189141907,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
+"demand_unmet",2046,19.1839642799018,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
+"demand_unmet",2047,10.099965888736,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
 "demand_unmet",2048,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
 "demand_unmet",2049,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
 "demand_unmet",2050,0,"Results/Optimization/DemandRecyclingLoop/Ambitious-Baseline-Low Capacity-Baseline-Recycling percentage 95","Small Capacity LIB",0.95
