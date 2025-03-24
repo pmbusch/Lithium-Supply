@@ -73,7 +73,7 @@ p2 <- ggplot(data_fig,aes(reserve_cum_start,cost,group=1))+
                   segment.color = "darkgrey", segment.size = 0.3,
                   nudge_y = 1000*even_row,size=7*5/14 * 0.8)+
   labs(x="Cumulative Resources [million tons Li]",y="Extraction Cost\n[USD/ton LCE]",
-       title="(C) Lithium Cumulative Availability Curve",
+       title="Lithium Cumulative Availability Curve",tag="c",
        col="Resource type")+
   coord_cartesian(xlim = c(0,lim_x),expand = F,ylim=c(NA,lim_y))+
   scale_color_manual(values=resource_colors)+
@@ -92,9 +92,14 @@ p2 <- ggplot(data_fig,aes(reserve_cum_start,cost,group=1))+
         legend.text = element_text(size=7),
         legend.key.height= unit(0.3, 'cm'),
         legend.key.width= unit(0.3, 'cm'),
+        plot.tag = element_text(face = "bold"),
         legend.spacing = unit(0.05,"cm"),
         legend.title = element_text(size=7.5))
 p2
+
+write.csv(dplyr::select(data_fig,Deposit_Name,Resource_Type,li_size,cost),
+          "Figures/Data Sources/Fig2c.csv",row.names = F)
+
 
 # Save with width size of letter
 # ggsave("Figures/Article/Fig2b.png", ggplot2::last_plot(),
@@ -140,7 +145,7 @@ p2_tradeoff <- ggplot(data_fig,aes(cost,edb,size=res))+
   scale_x_continuous(limits = c(6.2,13.5)*1e3,
                      labels = scales::comma_format(big.mark = ' ',prefix = "$"))+
   scale_color_manual(values=resource_colors)+
-  labs(y="",title="(B) Extraction Cost and Ease of Doing Business [0-100]",x="Extraction Costs [USD/ton LCE]",
+  labs(y="",tag="b",title="Extraction Cost and Ease of Doing Business [0-100]",x="Extraction Costs [USD/ton LCE]",
        size="Total Resource \n[M tons Li]",col="Resource \ntype")+
   theme_bw(7)+ 
   guides(col= "none")+
@@ -148,9 +153,14 @@ p2_tradeoff <- ggplot(data_fig,aes(cost,edb,size=res))+
         legend.background = element_rect(fill = "transparent", color = NA),
         legend.text = element_text(size=6),
         legend.key.height= unit(0.25, 'cm'),
+        plot.tag = element_text(face = "bold"),
         legend.key.width= unit(0.25, 'cm'),
         legend.position = c(0.32,0.3))
 p2_tradeoff
+
+write.csv(dplyr::select(data_fig,Deposit_Name,Country,Resource_Type,cost,edb,res),
+          "Figures/Data Sources/Fig2b.csv",row.names = F)
+
 
 # ggsave("Figures/Article/Tradeoff.png", ggplot2::last_plot(),
 #        units="cm",dpi=600,
@@ -270,10 +280,16 @@ p_mosaic <- ggplot(data_fig,aes(x = Resource_Type, y = share_resource,
   facet_grid(~Resource_Type, scales = "free_x", space = "free_x") +
   scale_alpha_manual(values=c(0.3,0.5,0.5))+
   theme_void(7)+
-  labs(title="(A) Lithium Resource Distribution")+
+  labs(title="Lithium Resource Distribution",tag="a")+
   theme(legend.position="none",
+        plot.tag = element_text(face = "bold"),
         panel.spacing.x = unit(0, "npc")) # if no spacing preferred between bars
 p_mosaic
+
+
+write.csv(dplyr::select(data_fig,Country,Resource_Type,reserve,resource_demonstrated,
+                        resource_inferred),
+          "Figures/Data Sources/Fig2a.csv",row.names = F)
 
 # ggsave("Figures/Article/Mosaic.png", ggplot2::last_plot(),
 #        units="cm",dpi=600,

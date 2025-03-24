@@ -77,6 +77,12 @@ df %>% group_by(symbol) %>% tally()
 # export for QGIS map preparation
 write.csv(df,"Results/MapOpenDeposits.csv",row.names = F)
 
+write.csv(dplyr::select(df,Deposit_Name,Resource_Type,Country,
+                        Latitude,Longitude,symbol),
+          "Figures/Data Sources/Fig4.csv",row.names = F)
+
+
+
 ## ACTUAL FIGURE IS MADE IN QGIS, simply loading this csv and adding a world basemap behing
 # with appropiate labels, legends and so on.
 

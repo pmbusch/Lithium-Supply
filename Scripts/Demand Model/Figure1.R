@@ -58,8 +58,8 @@ p1 <- ggplot(data_fig1)+
             nudge_y = c(0,2,0,-0.8,0,0,0,0.5,2,-0.2,0)*5e1)+
   coord_cartesian(expand=F,xlim=c(2022,2051.1),
                   ylim=c(0,max(data_fig1$kton)*1.02))+
-  labs(x="",y="",col="Demand Scenario",
-       title="(A) Primary Lithium Demand [ktons]")+
+  labs(x="",y="",col="Demand Scenario",tag = "a",
+       title="Primary Lithium Demand [ktons]")+
   scale_x_continuous(breaks = c(2022, 2030, 2040, 2050))+
   scale_y_continuous(limits = c(0,NA),labels = scales::comma_format(big.mark = ' '))+
   scale_color_manual(values = scen_colors)+
@@ -67,12 +67,15 @@ p1 <- ggplot(data_fig1)+
         axis.text.x = element_text(size=9),
         axis.text.y = element_text(size=9),
         # legend.position = "none",
-        legend.position = c(0.18,0.65),
-        legend.text = element_text(size=5.5),
+        plot.tag = element_text(face = "bold"),
+        legend.position = c(0.18,0.64),
+        legend.text = element_text(size=5.3),
         legend.background = element_rect(fill = "transparent", color = NA),
         legend.key.height= unit(0.25, 'cm'),
         legend.key.width= unit(0.25, 'cm'))
 p1
+
+write.csv(dplyr::select(data_fig1,name,t,kton),"Figures/Data Sources/Fig1a.csv",row.names = F)
 
 # cumulative demand
 unique(demandSector$Vehicle)
@@ -90,19 +93,23 @@ data_fig1a <- demandSector %>%
   group_by(Scenario,Sector) %>% 
   reframe(Demand=sum(Demand)/1e6) %>% 
   left_join(tibble(Scenario=scens_selected,name=scens_names)) %>% 
-  mutate(name=paste0("#",str_extract(name,paste(paste0(11:1),collapse = "|")))) %>% 
-  mutate(name=factor(name,levels=paste0("#",1:11)))
+  mutate(name=paste0("",str_extract(name,paste(paste0(11:1),collapse = "|")))) %>% 
+  mutate(name=factor(name,levels=paste0("",1:11)))
 
 
 p1a <- ggplot(data_fig1a,aes(name,Demand,fill=Sector))+
   geom_col(col="black",linewidth=0.1)+
   scale_fill_viridis_d(option = 7)+
-  labs(x="Demand Scenario",y="",title = "(B) 2022-2050 Demand [Mtons]",
+  labs(x="Demand Scenario",y="",tag="b",
+       title = "2022-2050 Demand [Mtons]",
        fill="")+
   theme(axis.text.y = element_text(size=9),
         axis.text.x = element_text(size=5.5),
+        plot.tag = element_text(face = "bold"),
         legend.text = element_text(size=6))
 p1a
+
+write.csv(dplyr::select(data_fig1a,name,Sector,Demand),"Figures/Data Sources/Fig1b.csv",row.names = F)
 
 
 # save as panel

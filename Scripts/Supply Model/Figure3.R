@@ -127,8 +127,8 @@ p2 <- ggplot(data_fig,aes(as.numeric(name_abr)-0.15,mtons))+
             aes(x=as.numeric(name_abr)+0.15,label = country_label,group=group_plot,col=white_font))+
   # Formatting and colors
   labs(x="Lithium Demand Scenario",
-       # title="2022-2050 Li metal Supply [million tons]",
-       title="2050 Li metal Supply [million tons]",
+       title="2022-2050 Li metal Supply [million tons]",
+       # title="2050 Li metal Supply [million tons]",
        y="")+
   scale_x_continuous(breaks=1:11,labels=name_abbr)+
   scale_fill_manual(values = c("Recyc."="#009E73","Brine"="#0000FF33",
@@ -145,6 +145,12 @@ p2 <- ggplot(data_fig,aes(as.numeric(name_abr)-0.15,mtons))+
         panel.grid.major = element_blank(),panel.grid.minor = element_blank())
 
 p2
+
+
+write.csv(dplyr::select(data2,name_abr,Resource_Type,Country,mtons),
+          "Figures/Data Sources/Fig3.csv",row.names = F)
+
+
 # Save with width size of letter
 ggsave("Figures/Figure3.png", ggplot2::last_plot(),
        units="cm",dpi=600,

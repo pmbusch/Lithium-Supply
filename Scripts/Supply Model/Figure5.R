@@ -201,11 +201,14 @@ p1 <- ggplot(data_fig,aes(name_abr,dep_scen))+
   theme_minimal(8)+
   theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank(),
         strip.text = element_text(size=7,color="black"),
+        plot.tag = element_text(face = "bold"),
         legend.text = element_text(size=9,color="black"),
         axis.title = element_text(size=9,color="black"),
         axis.text.y = element_text(size=6,color="black"),
         axis.text.x = element_text(size=6,color="black"))
 p1
+
+write.csv(data_fig,"Figures/Data Sources/Fig5a.csv",row.names = F)
 
 
 ## Slack -----
@@ -399,10 +402,14 @@ p2 <- ggplot(data_fig_N,aes(name_abr,Scen_Deposit))+
   theme(panel.grid.major = element_blank(),panel.grid.minor = element_blank(),
         strip.text = element_text(size=9,color="black"),
         legend.text = element_text(size=9,color="black"),
+        plot.tag = element_text(face = "bold"),
         axis.title = element_text(size=9,color="black"),
         axis.text.y = element_text(size=6,lineheight = 0.9,color="black"),
         axis.text.x = element_text(size=6,color="black"))
 p2
+
+write.csv(dplyr::select(data_fig_N,-aux_height),"Figures/Data Sources/Fig5b.csv",row.names = F)
+
 
 ## Slack ----
 slack_value2 <- slack2 %>%
@@ -495,17 +502,21 @@ p1_plot <- p1+
   scale_fill_gradient2(low = "#0000FFBB",mid = "#FFFFFFBB",
                        high = "#FF0000BB",midpoint = ref_value,
                        limits=c(0,110))+
-  labs( title="(A) Deposit Parameters Sensitivity")+
+  labs(title="Deposit Parameters Sensitivity",tag="a")+
   theme(legend.position = "none",
+        plot.tag = element_text(face = "bold"),
+        plot.tag.position = c(0.1, .98),
         plot.margin = margin(5,-3,5,-10)) #trbl
 p2_plot <- p2+
   scale_fill_gradient2(low = "#0000FFBB",mid = "#FFFFFFBB",
                        high = "#FF0000BB",midpoint = ref_value,
                        limits=c(0,110))+
   labs(fill="Number of new\nopened deposits",
-       title="(B) N-1 Country Analysis")+
+       title="N-1 Country Analysis",tag="b")+
   theme(legend.position = "bottom",
-        plot.margin = margin(5,5,5,-8))
+        plot.tag.position = c(0.08, 0.98),
+        plot.tag = element_text(face = "bold"),
+        plot.margin = margin(5,5,5,-3))
   
 cowplot::plot_grid(p1_plot,p2_plot,ncol=2)
 
@@ -534,18 +545,21 @@ p_cost_plot <- p_cost+
   scale_fill_gradient2(low = "#0000FFBB",mid = "#FFFFFFBB",
                        high = "#FF0000BB",midpoint = ref_value,
                        limits=c(0,1000))+
-  labs( title="(A) Deposit Parameters Sensitivity")+
+  labs( tag="a",title="Deposit Parameters Sensitivity")+
   theme(legend.position = "none",
+        plot.tag = element_text(face = "bold"),
+        plot.tag.position = c(0.1, .98),
         plot.margin = margin(5,-3,5,-10))
 p2_cost_plot <- p_cost2+
   scale_fill_gradient2(low = "#0000FFBB",mid = "#FFFFFFBB",
                        high = "#FF0000BB",midpoint = ref_value,
                        limits=c(0,1000))+
   labs(fill="Total Cost\n[billion USD]",
-       title="(B) N-1 Country Analysis")+
+       title="N-1 Country Analysis",tag="b")+
   theme(legend.position = "bottom",
-        plot.margin = margin(5,5,5,-8))
-
+        plot.tag = element_text(face = "bold"),
+        plot.tag.position = c(0.08, 0.98),
+        plot.margin = margin(5,5,5,-3))
 
 # Fig. S6. Total cost (trillions USD, in 2022 present value) to meet lithium demand requirements 
 cowplot::plot_grid(p_cost_plot,p2_cost_plot, ncol = 2)
@@ -556,7 +570,6 @@ fig_name="Figures/Supply/Figure5_cost.png"
 ggsave(fig_name, ggplot2::last_plot(),
        units="cm",dpi=600,
        width=20,height=10)
-
 
 ## Slack -----
 
@@ -569,17 +582,21 @@ p_slack_plot <- p_slack+
   scale_fill_gradient2(low = "#0000FFBB",mid = "#FFFFFFBB",
                        high = "#FF0000BB",midpoint = ref_value,
                        limits=c(0,400))+
-  labs( title="(A) Deposit Parameters Sensitivity")+
+  labs( tag="a",title="Deposit Parameters Sensitivity")+
   theme(legend.position = "none",
+        plot.tag.position = c(0.1, .98),
+        plot.tag = element_text(face = "bold"),
         plot.margin = margin(5,-3,5,-10))
 p2_slack_plot <- p_slack2+
   scale_fill_gradient2(low = "#0000FFBB",mid = "#FFFFFFBB",
                        high = "#FF0000BB",midpoint = ref_value,
                        limits=c(0,400))+
   labs(fill="Lithium demand\ncurtalied [ktons]",
-       title="(B) N-1 Country Analysis")+
+       title="N-1 Country Analysis",tag="b")+
   theme(legend.position = "bottom",
-        plot.margin = margin(5,5,5,-8))
+        plot.tag = element_text(face = "bold"),
+        plot.tag.position = c(0.08, 0.98),
+        plot.margin = margin(5,5,5,-3))
 
 # Fig. S7. Total demand curtailed (in ktons lithium) due to cost exceeding slack price threshold
 cowplot::plot_grid(p_slack_plot,p2_slack_plot, ncol = 2)
