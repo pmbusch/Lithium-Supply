@@ -397,16 +397,21 @@ bat_region %>%
   geom_col(position = "stack",col="black",linewidth=0.1)+
   # facet_wrap(~Propulsion,scales = "free_y",dir = "v")+
   coord_flip(expand = F)+
-  labs(x="",y=paste0("kWh Battery Capacity per ",prop," Vehicle"),fill="Battery \nChemistry \nShare")+
+  labs(x="",y=paste0("kWh Battery Capacity per ",prop," Car"),fill="Battery \nChemistry \nShare")+
   scale_fill_viridis_d(option="turbo",direction = -1)+
   # tidytext::scale_x_reordered()+
-  theme_bw(10)+ 
+  theme_bw(10)+
+  # theme_bw(13.5)+ # for poster
   theme(panel.grid.major = element_blank(),
         legend.position = "bottom",
         legend.text = element_text(size=8))+
   guides(fill = guide_legend(reverse = T,byrow = T))
 
 f.fig.save(sprintf(fig_name,"2022_BEV_LIB_Size"))
+
+ggsave("Figures/Battery/BEV_Size.svg", ggplot2::last_plot(),
+       units="cm",dpi=600,
+       width=20,height=10)
 
 # Wolrd averages by chem
 bat_world %>% 

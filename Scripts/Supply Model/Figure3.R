@@ -160,6 +160,11 @@ pdf("Figures/PDF/Figure3.pdf",width=8.8/2.54,height=8.8/2.54)
 ggplot2::last_plot()
 dev.off()
 
+ggsave("Figures/Vector/Figure3.svg", ggplot2::last_plot(),
+       units="cm",dpi=600,
+       width=8.8,height=8.8)
+
+
 # to save 2050
 # Fig. S3. 2050 Lithium extraction by resource type and country of extraction
 # ggsave("Figures/Supply/Figure3_2050.png", ggplot2::last_plot(),

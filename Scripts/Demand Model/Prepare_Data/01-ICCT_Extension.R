@@ -142,4 +142,51 @@ df %>%
 
 f.fig.save("Figures/Demand/ICCT.png")
 
+# Figure for poster
+data_fig <- df %>% 
+  filter(Year<2051) %>% 
+  filter(Scenario=="Ambitious",Powertrain=="BEV") %>% 
+  filter(Vehicle=="Car") %>% 
+  mutate(Region = case_when(
+    Region %in% c("Africa") ~ "Africa",
+    Region %in% c("Middle East") ~ "Middle East",
+    Region %in% c("China") ~ "China",
+    Region %in% c("India", "Japan", "South Korea", "ASEAN", "Other Asia Pacific") ~ "Asia",
+    Region %in% c("Australia/NZ") ~ "Oceania",
+    Region %in% c("Brazil", "Other Latin America and Caribbean") ~ "South America",
+    Region %in% c("Canada", "United States","Mexico") ~ "North America",
+    Region %in% c("Other Europe", "European Union", "United Kingdom", "EFTA") ~ "Europe",
+    TRUE ~ "Other")) %>% 
+  mutate(Region=factor(Region,levels=rev(c("Africa", "Middle East", "China", "Asia",
+                                       "Oceania", "South America", "North America", "Europe")))) %>% 
+  group_by(Year,Region) %>% 
+  reframe(Sales=sum(Sales)/1e6) %>% ungroup()
+
+ggplot(data_fig,aes(Year, Sales, fill = fct_rev(Region))) +
+  geom_area() +
+  labs(y="",x="",fill="",title="Car EV Sales [million units]")+  
+  coord_cartesian(expand=F)+
+  scale_fill_manual(values = c("Europe"="#a6cee3",
+                               "North America" = "#1f78b4",
+                               "South America" = "#6a3d9a",
+                               "Oceania" = "#cab2d6",
+                               "Asia" = "#fdb462",
+                               "China" = "#ff0000",
+                               "Middle East" = "#8b4513",
+                               "Africa" = "#4682b4",
+                               "World"="#808080")) +
+  scale_x_continuous(breaks = c(2022, 2030, 2040, 2050))+
+  theme_bw(16)+
+  theme(panel.grid = element_blank(),
+        axis.text.x = element_text(hjust=1),
+        legend.position = c(0.15,0.65),
+        legend.background = element_rect(fill = "transparent"))
+        # legend.text = element_text(size=8),
+        # legend.key.height= unit(0.25, 'cm'),
+        # legend.key.width= unit(0.25, 'cm'))
+
+ggsave("Figures/Demand/ICCT.svg", ggplot2::last_plot(),
+       units="cm",dpi=600,
+       width=20,height=10)
+
 # EoF

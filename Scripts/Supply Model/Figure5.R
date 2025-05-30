@@ -530,7 +530,9 @@ pdf("Figures/PDF/Figure5.pdf",
     width=18/2.54,height=8.7/2.54)
 ggplot2::last_plot()
 dev.off()
-
+ggsave("Figures/Vector/Figure5.svg", ggplot2::last_plot(),
+       units="cm",dpi=600,
+       width=20,height=10)
 
 ## Cost -----
 

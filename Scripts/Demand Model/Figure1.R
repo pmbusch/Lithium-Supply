@@ -125,6 +125,11 @@ pdf("Figures/PDF/Figure1.pdf",width=18.4/2.54,height=6.4/2.54)
 ggplot2::last_plot()
 dev.off()
 
+ggsave("Figures/Vector/Figure1.svg", ggplot2::last_plot(),
+       units="cm",dpi=600,
+       width=18.4,height=6.4)
+
+
 # Cumulative demand by region
 data_fig <- demandRegion %>% 
   mutate(Region=case_when(

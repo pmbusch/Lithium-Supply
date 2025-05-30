@@ -310,4 +310,9 @@ pdf("Figures/PDF/Figure2.pdf",width=18.4/2.54,height=12.4/2.54)
 ggplot2::last_plot()
 dev.off()
 
+
+ggsave("Figures/Vector/Figure2.svg", ggplot2::last_plot(),
+       units="cm",dpi=600,
+       width=18.4,height=12.4)
+
 # EoF

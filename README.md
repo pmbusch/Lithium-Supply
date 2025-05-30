@@ -1,6 +1,6 @@
 # Effects of Demand and Recycling on the When and Where of Lithium Extraction
 
-Replication materials for Busch *et al.* (2025).
+Replication materials for [Busch *et al.* (2025)](https://doi.org/10.1038/s41893-025-01561-5).
 
 The following code and data allows for the reproduction of all the tables, figures and calculations made in the article, both in the main body and supplementary information.
 
@@ -17,7 +17,7 @@ If you identify any error in the source code or have any further suggestions ple
 
 # Instructions
 
-The repository is ~830Mb fully unzipped, please make sure to manually unzip files in the Results folder. Downloading and unzippin everthing should take less than 5 minutes on a normal computer.
+The repository is ~830Mb fully unzipped, please make sure to manually unzip files in the Results folder. Downloading and unzipping everything should take less than 5 minutes on a normal computer.
 
 Users can run all the code for replication using the "Lithium-Supply.Rproj" file, or by setting their own working directory and running scripts independently.
 
